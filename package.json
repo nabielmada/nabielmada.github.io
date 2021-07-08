@@ -12,7 +12,9 @@
     "bootstrap": "^5.0.2",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
+    "vue-kinesis": "^2.0.5",
     "vue-router": "^4.0.0-0",
+    "vue-typed-js": "^0.1.2",
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {

@@ -1,11 +1,11 @@
 <template>
 
  <div class="row">
-     <div class="col-lg-12 text-center mb-3">
+     <div class="col-lg-12 text-center mb-3" data-aos="fade-up" data-aos-delay="200">
          <img src="/asset/icon/icon-google.png" alt="" srcset="">
      </div>
 
-     <div class="col-lg-4">
+     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="250">
          <div class="card hover-card">
              <div class="card-body">
                  <div class="text-muted p-3">
@@ -27,7 +27,7 @@
          </div>
      </div>
 
-     <div class="col-lg-4">
+     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="350">
          <div class="card hover-card">
              <div class="card-body">
                  <div class="text-muted p-3">
@@ -49,7 +49,7 @@
          </div>
      </div>
 
-     <div class="col-lg-4">
+     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="450">
          <div class="card hover-card">
              <div class="card-body">
                  <div class="text-muted p-3">
@@ -71,13 +71,13 @@
          </div>
      </div>
 
-     <div class="col-12 text-center mt-5 mb-5 ">
+     <div class="col-12 text-center mt-5 mb-5 " data-aos="fade-up" data-aos-delay="200">
             <button class="btn btn-light text-muted"> LOAD MORE</button>
     </div>
 
  </div>
 
-<div class="container box-footer space">
+<div class="container box-footer space" data-aos="fade-up" data-aos-delay="400">
     <img src="/asset/bg/bg-footer-1.png" class="bg-footer-1" alt="" srcset="">
         <div class="d-flex justify-content-center ">
             <div class="card bg-footer p-5 border-none-1 shadow-lg">

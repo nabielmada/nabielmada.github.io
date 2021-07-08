@@ -1,11 +1,11 @@
 <template>
 
-    <div class="col-12">
+    <div class="col-12" data-aos="fade-up" data-aos-delay="200">
         <h1 class="title">Did you know, <mark>about me ?</mark></h1>
     </div>
 
     <div class="row mt-5">
-        <div class="col-lg-8">
+        <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
             <iframe width="600" height="400" src="https://www.youtube.com/embed/-L0__fCTmkU?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1"
                 title="YouTube video player" class="rounded-3" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media"
@@ -49,7 +49,7 @@
 
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nabielmada&layout=compact&theme=vue">
 
             <h4 class="mt-5 title">

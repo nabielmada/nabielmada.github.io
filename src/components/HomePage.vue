@@ -6,7 +6,7 @@
     <div class="container pt-4">
       <div class="row">
 
-        <div class="col-lg-7">
+        <div class="col-lg-7" data-aos="fade-right" data-aos-delay="200">
           <div class="heading lh-sm">
             Hello. <br />
             I'm <mark> Nabiel Mada </mark> <br />
@@ -56,10 +56,16 @@
           </div>
 
         </div>
-
         <div class="col-lg-5">
+
+<kinesis-container>
+                  <kinesis-element :strength="15" >
           <img src="/img/foto-heading.png" alt="foto-heading" draggable="false" class="foto-heading">
+                
+              </kinesis-element>
+          </kinesis-container>
         </div>
+
       </div> <!-- end row -->
 
       <div class="row space">
@@ -68,7 +74,7 @@
         </div>
 
         <div class="col-4 justify-content-center mt-4">
-          <div class="card hover-card mb-3">
+          <div class="card hover-card mb-3" data-aos="fade-up" data-aos-delay="200">
             <div class="row g-0 my-3">
               <div class="col-md-4 mt-3 text-end">
                 <img src="/asset/icon/icon-heading-1.png" class="img-fluid rounded-start">
@@ -86,7 +92,7 @@
         </div>
 
         <div class="col-4 justify-content-center mt-4">
-          <div class="card hover-card mb-3">
+          <div class="card hover-card mb-3" data-aos="fade-up" data-aos-delay="250">
             <div class="row g-0 my-3">
               <div class="col-md-4 mt-3 text-end">
                 <img src="/asset/icon/icon-heading-2.png" class="img-fluid rounded-start">
@@ -104,7 +110,7 @@
         </div>
 
         <div class="col-4 justify-content-center mt-4">
-          <div class="card hover-card mb-3">
+          <div class="card hover-card mb-3" data-aos="fade-up" data-aos-delay="300">
             <div class="row g-0 my-3">
               <div class="col-md-4 mt-3 text-end">
                 <img src="/asset/icon/icon-heading-3.png" class="img-fluid rounded-start">
@@ -123,8 +129,8 @@
 
       </div>
 
-      <div class="row mb-5 pb-5 space" id = "specialize">
-        <div class="col-12 text-center">
+      <div class="row mb-5 pb-5 space" id="specialize">
+        <div class="col-12 text-center mb-4" data-aos="fade-up" data-aos-delay="200">
           <h1 class="title">What <mark>am i doing</mark></h1>
           <p class="text-muted mt-3 sub-title">There are many things i usually do around creativity and logic but i
             specialize in
@@ -132,65 +138,71 @@
         </div>
         <div class="col-6 mt-5">
           <div class="row">
-            <div class="col-2">
+            <div class="col-2" data-aos="fade-right" data-aos-delay="200">
               <img src="/asset/icon/bi-check.png" draggable="false">
             </div>
-            <div class="col-10">
+            <div class="col-10" data-aos="fade-right" data-aos-delay="350">
               <h4>Web Design</h4>
               <p class="text-muted">Landing Page, User Flow, Prototyping, UI/UX Design.</p>
             </div>
             <p></p>
 
-            <div class="col-2">
+            <div class="col-2" data-aos="fade-right" data-aos-delay="200">
               <img src="/asset/icon/bi-check.png" draggable="false">
             </div>
-            <div class="col-10">
+            <div class="col-10" data-aos="fade-right" data-aos-delay="350">
               <h4>Web Development</h4>
               <p class="text-muted">Full Stack Website, Security, SEO, Responsive.</p>
             </div>
             <p></p>
 
-            <div class="col-2">
+            <div class="col-2" data-aos="fade-right" data-aos-delay="200">
               <img src="/asset/icon/bi-check.png" draggable="false">
             </div>
-            <div class="col-10">
+            <div class="col-10" data-aos="fade-right" data-aos-delay="350">
               <h4>Designer</h4>
               <p class="text-muted">Banner Iklan, Poster, Content Digital.</p>
             </div>
             <p></p>
 
-            <div class="col-2">
+            <div class="col-2" data-aos="fade-right" data-aos-delay="200">
               <img src="/asset/icon/bi-check.png" draggable="false">
             </div>
-            <div class="col-10">
+            <div class="col-10" data-aos="fade-right" data-aos-delay="350">
               <h4>Photography</h4>
               <p class="text-muted">Couple Session, Pre-wedding, Photo Product, Photo Editing.</p>
             </div>
             <p></p>
 
-            <div class="col-2">
+            <div class="col-2" data-aos="fade-right" data-aos-delay="200">
               <img src="/asset/icon/bi-check.png" draggable="false">
             </div>
-            <div class="col-10">
+            <div class="col-10" data-aos="fade-right" data-aos-delay="350">
               <h4>Videography</h4>
               <p class="text-muted">Cinematic, Company Profile, Animation.</p>
             </div>
           </div>
         </div>
 
-        <div class="col-6">
-          <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_Yfas6J.json" background="transparent"
-            speed="1" class="img-fluid" loop autoplay></lottie-player>
+        <div class="col-6" data-aos="fade-right" data-aos-delay="200">
+          <!-- <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_Yfas6J.json" background="transparent"
+            speed="1" class="img-fluid" loop autoplay></lottie-player> -->
+            <kinesis-container>
+                  <kinesis-element :strength="15" type = "depth">                
+                  <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_dqp37g7d.json" background="transparent"  speed="1"  class = "img-fluid pt-5" loop autoplay></lottie-player>
+              </kinesis-element>
+          </kinesis-container>
+
         </div>
 
         <div class="mt-5"></div>
         <div class="col-1"></div>
-        <div class="col-3">
+        <div class="col-3" data-aos="fade-up" data-aos-delay="200">
           <div class="d-grid">
             <button class="btn btn-lg btn-primary shadow"> Hire Me</button>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-3" data-aos="fade-up" data-aos-delay="250">
           <div class="d-grid">
             <button class="btn btn-lg btn-light text-muted"> Get My CV</button>
           </div>
@@ -207,31 +219,31 @@
 
           <div class="mt-5 pt-5 ">
             <div class="d-flex justify-content-center text-center">
-          <div class="card shadow-lg border-none-testi w-75 ">
+              <div class="card shadow-lg border-none-testi w-75 ">
 
-            <div class="bg-testi">
-            <div class="card-body mt-5 mb-5 pt-5 pb-5">
-              <h5>
-                <b>" Great things in</b> Business <b> are never done by </b> one person. <br/>
-                <b> They're done by team of people " </b>
-              </h5>
+                <div class="bg-testi">
+                  <div class="card-body mt-5 mb-5 pt-5 pb-5">
+                    <h5>
+                      <b>" Great things in</b> Business <b> are never done by </b> one person. <br />
+                      <b> They're done by team of people " </b>
+                    </h5>
 
-              <p class="mt-4">
-                <small> Thank's for my customer : </small>
-              </p>
+                    <p class="mt-4">
+                      <small> Thank's for my customer : </small>
+                    </p>
 
-              <div class="mb-4">
-                <img src="/avatar/bg-avatar-testi.png" class="img-fluid" alt="" srcset="">
-              </div>
+                    <div class="mb-4">
+                      <img src="/avatar/bg-avatar-testi.png" class="img-fluid" alt="" srcset="">
+                    </div>
 
-              <div class="d-flex justify-content-center mt-5">
-                <div><button class="btn btn-lg btn-primary shadow"> <small>Visit My Team</small></button></div>
+                    <div class="d-flex justify-content-center mt-5">
+                      <div><button class="btn btn-lg btn-primary shadow"> <small>Visit My Team</small></button></div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
-            </div>
-
-          </div>
-          </div>
           </div>
         </div>
       </div>

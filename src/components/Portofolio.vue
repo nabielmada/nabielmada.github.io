@@ -1,5 +1,5 @@
 <template>
-    <div class="col-12 text-center ">
+    <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="200"> 
         <h1 class="title">My Recent <mark>Portofolio</mark></h1>
         <p class="text-muted mt-3 sub-title">
             Several porofolio projects that i have completed
@@ -8,7 +8,7 @@
 
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+        <div class="col" data-aos="flip-up" data-aos-delay="250">
             <div class="card hover-card border-none">
                 <div class="text-center">
                     <div class="badge bg-primary w-25 text-white"><small>Team</small></div>
@@ -45,7 +45,7 @@
             </div>
         </div>
 
-        <div class="col">
+        <div class="col" data-aos="flip-up" data-aos-delay="300">
             <div class="card hover-card border-none">
                 <div class="text-center">
                     <div class="badge bg-primary w-25 text-white"><small>Team</small></div>
@@ -82,7 +82,7 @@
             </div>
         </div>
 
-        <div class="col">
+        <div class="col" data-aos="flip-up" data-aos-delay="350">
             <div class="card hover-card border-none">
                 <div class="text-center mt-3">
                     <!-- <div class="badge bg-primary w-25 text-white"><small>Team</small></div> -->
@@ -119,7 +119,7 @@
             </div>
         </div>
 
-        <div class="col">
+        <div class="col" data-aos="flip-up" data-aos-delay="250">
             <div class="card hover-card border-none">
                 <div class="text-center mt-3">
                     <!-- <div class="badge bg-primary w-25 text-white"><small>Team</small></div> -->
@@ -156,7 +156,7 @@
             </div>
         </div>
 
-        <div class="col">
+        <div class="col" data-aos="flip-up" data-aos-delay="300">
             <div class="card hover-card border-none">
                 <div class="text-center mt-3">
                     <!-- <div class="badge bg-primary w-25 text-white"><small>Team</small></div> -->
@@ -193,7 +193,7 @@
             </div>
         </div>
 
-        <div class="col">
+        <div class="col" data-aos="flip-up" data-aos-delay="350">
             <div class="card hover-card border-none">
                 <div class="text-center">
                     <div class="badge bg-primary w-25 text-white"><small>Team</small></div>
@@ -231,7 +231,7 @@
         </div>
         <p></p>
 
-        <div class="col-12 text-center mb-5 ">
+        <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="200">
             <button class="btn btn-light text-muted"> LOAD MORE</button>
         </div>
     </div>
