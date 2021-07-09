@@ -7,7 +7,7 @@
     </div>
 
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4 card-porto">
         <div class="col" data-aos="flip-up" data-aos-delay="250">
             <div class="card hover-card border-none">
                 <div class="text-center">
@@ -19,7 +19,7 @@
                         <img src="/portofolio/bg-portofolio-1.png" class="card-img-top bg-portofolio" alt="...">
                     </div>
                     <div class="row g-0 mt-4">
-                        <div class="col-lg-3 mt-4 mx-2 text-center">
+                        <div class="col-lg-3 col-2 mt-4 mx-2 avatar-porto text-center">
                             <img src="/avatar/avatar-1.png" class="" alt="">
                         </div>
                         <div class="col">
@@ -56,7 +56,7 @@
                         <img src="/portofolio/bg-portofolio-2.png" class="card-img-top bg-portofolio" alt="...">
                     </div>
                     <div class="row g-0 mt-4">
-                        <div class="col-lg-3 mt-4 mx-2 text-center">
+                        <div class="col-lg-3 col-2 mt-4 mx-2 avatar-porto text-center">
                             <img src="/avatar/avatar-2.png" class="" alt="">
                         </div>
                         <div class="col">
@@ -93,7 +93,7 @@
                         <img src="/portofolio/bg-portofolio-3.png" class="card-img-top bg-portofolio" alt="...">
                     </div>
                     <div class="row g-0 mt-4">
-                        <div class="col-lg-3 mt-4 mx-2 text-center">
+                        <div class="col-lg-3 col-2 mt-4 mx-2 avatar-porto text-center">
                             <img src="/avatar/avatar-3.png" class="" alt="">
                         </div>
                         <div class="col">
@@ -130,7 +130,7 @@
                         <img src="/portofolio/bg-portofolio-4.png" class="card-img-top bg-portofolio" alt="...">
                     </div>
                     <div class="row g-0 mt-4">
-                        <div class="col-lg-3 mt-4 mx-2 text-center">
+                        <div class="col-lg-3 col-2 mt-4 mx-2 avatar-porto text-center">
                             <img src="/avatar/avatar-4.png" class="" alt="">
                         </div>
                         <div class="col">
@@ -167,7 +167,7 @@
                         <img src="/portofolio/bg-portofolio-5.png" class="card-img-top bg-portofolio" alt="...">
                     </div>
                     <div class="row g-0 mt-4">
-                        <div class="col-lg-3 mt-4 mx-2 text-center">
+                        <div class="col-lg-3 col-2 mt-4 mx-2 avatar-porto text-center">
                             <img src="/avatar/avatar-5.png" class="" alt="">
                         </div>
                         <div class="col">
@@ -204,7 +204,7 @@
                         <img src="/portofolio/bg-portofolio-6.png" class="card-img-top bg-portofolio" alt="...">
                     </div>
                     <div class="row g-0 mt-4">
-                        <div class="col-lg-3 mt-4 mx-2 text-center">
+                        <div class="col-lg-3 col-2 mt-4 mx-2 avatar-porto text-center">
                             <img src="/avatar/avatar-6.png" class="" alt="">
                         </div>
                         <div class="col">
@@ -231,7 +231,7 @@
         </div>
         <p></p>
 
-        <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="200">
             <button class="btn btn-light text-muted"> LOAD MORE</button>
         </div>
     </div>

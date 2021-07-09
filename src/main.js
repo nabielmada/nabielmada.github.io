@@ -7,8 +7,11 @@ import VueKinesis from 'vue-kinesis'
 import 'bootstrap/dist/css/bootstrap.css'
 import '/src/assets/main.css';
 
+var VueScrollTo = require('vue-scrollto');
+
 createApp(App)
     .use(store)
     .use(router)
     .use(VueKinesis)
+    .use(VueScrollTo)
 .mount('#app')

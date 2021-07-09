@@ -2,23 +2,22 @@
 
  <div class="row">
      <div class="col-lg-12 text-center mb-3" data-aos="fade-up" data-aos-delay="200">
-         <img src="/asset/icon/icon-google.png" alt="" srcset="">
+         <img src="/asset/icon/icon-google.png" class="img-fluid" alt="" srcset="">
      </div>
 
      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="250">
          <div class="card hover-card">
              <div class="card-body">
                  <div class="text-muted p-3">
-                     Commitment to work or create something great.
-                     Commitment to work or create something great.
-                     Commitment.
+                     Easy to use, got way more and way better designs that I expected and very happy with the end result.
+                     Fast service with 1 weeks only. So crazy!
                  <hr/>
-                 <div class="row g-0 mx-3 mt-4">
-                     <div class="col-lg-2 text-end">
+                 <div class="row g-0 mx-3 card-review mt-4">
+                     <div class="col-lg-2 col-3 text-end">
                          <img src="/avatar/avatar-7.png" class="h-75" alt="" srcset="">
                      </div>
-                     <div class="col mx-4">
-                         Irfan Withatnata <br/>
+                     <div class="col col card-name-review mx-4">
+                         Irfan Wihatnata <br/>
                          Mahasiswa
                      </div>
                  </div>
@@ -31,17 +30,16 @@
          <div class="card hover-card">
              <div class="card-body">
                  <div class="text-muted p-3">
-                     Commitment to work or create something great.
-                     Commitment to work or create something great.
-                     Commitment.
+                     Good service with the good quality design. i just wanted to share a quick note and let you know that you guys do a really good job.
+                     I'm glad I decided to work with you.
                  <hr/>
-                 <div class="row g-0 mx-3 mt-4">
-                     <div class="col-lg-2 text-end">
+                 <div class="row g-0 card-review mx-3 mt-4">
+                     <div class="col-lg-2 col-3 text-end">
                          <img src="/avatar/avatar-8.png" class="h-75" alt="" srcset="">
                      </div>
-                     <div class="col mx-4">
-                         Irfan Withatnata <br/>
-                         Mahasiswa
+                     <div class="col col card-name-review mx-4">
+                         Lisa Aurellia Putri<br/>
+                         Wirausaha
                      </div>
                  </div>
                  </div>
@@ -53,17 +51,16 @@
          <div class="card hover-card">
              <div class="card-body">
                  <div class="text-muted p-3">
-                     Commitment to work or create something great.
-                     Commitment to work or create something great.
-                     Commitment.
+                     You guys rocked on the sculpture project. And you have been the most helpful site i have ever been on. Thanks so much
+                     for doing a great job. You're awesome :)
                  <hr/>
-                 <div class="row g-0 mx-3 mt-4">
-                     <div class="col-lg-2 text-end">
+                 <div class="row g-0 card-review mx-3 mt-4">
+                     <div class="col-lg-2 col-3 text-end">
                          <img src="/avatar/avatar-9.png" class="h-75" alt="" srcset="">
                      </div>
-                     <div class="col mx-4">
-                         Irfan Withatnata <br/>
-                         Mahasiswa
+                     <div class="col col card-name-review mx-4">
+                        Ranu Ramadhan<br/>
+                         Karyawan Swasta
                      </div>
                  </div>
                  </div>
@@ -77,22 +74,26 @@
 
  </div>
 
-<div class="container box-footer space" data-aos="fade-up" data-aos-delay="400">
-    <img src="/asset/bg/bg-footer-1.png" class="bg-footer-1" alt="" srcset="">
+<div class="container box-footer space" id = "hire-me" data-aos="fade-up" data-aos-delay="400">
+     <img src="/asset/bg/bg-footer-1.png" class="bg-footer-1" alt="" srcset="">
         <div class="d-flex justify-content-center ">
             <div class="card bg-footer p-5 border-none-1 shadow-lg">
-                <div class="card-body mt-5 mb-5 text-center">
+                <div class="card-body bg-card-footer mt-5 mb-5 text-center">
                     <div class="text-green">Let me know</div>
-                    <p class="text-white h1">You have any project ?</p>
-                        <button class="btn btn-light  btn-lg text-muted mt-4"> <small>Say Hello!</small></button>
+                    <p class="text-white h1 text-have">Interested collaboration <br/>with me?</p>
+                    <a href = "
+                     https://api.whatsapp.com/send/?phone=%2B6285727393383&text=Hello.+I've+seen+your+personal+website,+can+i+talk+to+you+now+?&app_absent=0
+                    " target="_blank">
+                        <button class="btn btn-light btn-lg text-muted mt-4"> <small>Say Hello!</small></button>
+                    </a>
                 </div>
-                <small class="text-light">* Syarat dan ketentuan berlaku.</small>
+                <small class="text-light text-sk">* Syarat dan ketentuan berlaku.</small>
             </div>
         </div>
-    <img src="/asset/bg/bg-footer-2.png" class="bg-footer-2" alt="" srcset="">
+     <img src="/asset/bg/bg-footer-2.png" class="bg-footer-2" alt="" srcset="">
 </div>
 
-<footer class="mb-5 space">
+<footer class="mb-5 space footer">
     <center>
         <ion-icon name="heart-outline" class="text-danger" ></ion-icon>  <br/>
       2021 &copy; Nabiel Mada
