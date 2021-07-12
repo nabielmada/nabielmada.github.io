@@ -191,7 +191,7 @@ mark {
     }
 
     .resize-nav{
-       padding-bottom: 0.3em !important;
+       padding-bottom: 0em !important;
        padding-top: 1.5em !important;
     }
 
@@ -304,7 +304,7 @@ mark {
         background-image: url('/asset/bg/bg-wave.png');
         background-size: cover;
         background-repeat: no-repeat;
-        height: 203em;
+        height: auto;
     }
 
     /* Visit My Team */
