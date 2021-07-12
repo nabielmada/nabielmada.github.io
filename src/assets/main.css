@@ -191,7 +191,8 @@ mark {
     }
 
     .resize-nav{
-       padding-bottom: 3em !important;
+       padding-bottom: 2em !important;
+       padding-top: 2em !important;
     }
 
     .heading {
