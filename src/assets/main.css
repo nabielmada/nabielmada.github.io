@@ -304,7 +304,7 @@ mark {
         background-image: url('/asset/bg/bg-wave.png');
         background-size: cover;
         background-repeat: no-repeat;
-        height: 208em;
+        height: 203em;
     }
 
     /* Visit My Team */
@@ -316,6 +316,7 @@ mark {
             position: relative;
             height: 20em;
             max-width: 100%;
+            display: none;
     }
 
     .text-vt {
@@ -352,7 +353,7 @@ mark {
     /* ---------------------- */
 
     .box-aboutme {
-        margin-top: 15rem;
+        margin-top: 1rem;
     }
 
     .vid-about-me {
