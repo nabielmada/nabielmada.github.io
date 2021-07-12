@@ -13,12 +13,12 @@
             <span class="text-primary-m heading-2">Web Developer & Designer</span>
           </div>
 
-          <p class="pt-4 text-muted sub-heading">
+          <p class="pt-4 text-muted sub-heading sub-heading-resize ">
             Co-Founder <b>@Sulungsoft</b> and specialize in full stack
             web development and visual design.
           </p>
 
-          <div class="row pt-3">
+          <div class="row pt-3 mb-3">
             <div class="col-lg-7">
               <input type="text" name="" id="" class="form-control form-control-lg"
                 placeholder="Enter your email address...">
@@ -236,39 +236,41 @@
         <div class="row" id = "portofolio">
           <Portofolio />
 
-          <!-- <div class="mt-5 pt-5 box-team">
+           <div class="mt-5 pt-5 box-team">
             <div class="d-flex justify-content-center text-center">
               <div class="card shadow-lg border-none-testi w-75 ">
 
                 <div class="bg-testi">
-                  <div class="card-body mt-5 mb-5 pt-5 pb-5">
-                    <h5>
+                  <div class="card-body mt-5 mb-5 pt-5 pb-5 body-resize">
+                    <h5 class="text-vt">
                       <b>" Great things in</b> Business <b> are never done by </b> one person. <br />
                       <b> They're done by team of people " </b>
                     </h5>
 
-                    <p class="mt-4">
+                    <p class="mt-4 text-vt-2">
                       <small> Thank's for my customer : </small>
                     </p>
 
                     <div class="mb-4">
-                      <img src="/avatar/bg-avatar-testi.png" class="img-fluid" alt="" srcset="">
+                      <img src="/avatar/bg-avatar-testi.png" class="img-fluid img-ava" alt="" srcset="">
                     </div>
 
-                    <div class="d-flex justify-content-center mt-5">
-                      <div><button class="btn btn-lg btn-primary shadow"> <small>Visit My Team</small></button></div>
+                    <div class="d-flex justify-content-center mt-5 margin-resize">
+                      <div>
+                        <a href = "https://www.instagram.com/sulungsoft/" target="_blank"><button class="btn btn-lg btn-primary btn-resize shadow"> <small>Visit My Team</small></button></a>
+                      </div>
                     </div>
                   </div>
                 </div>
 
               </div>
             </div>
-          </div> -->
+          </div> 
         </div>
       </div>
     </div>
 
-    <div class="container space">
+    <div class="container space box-aboutme" data-aos="fade-up" data-aos-delay="200">
       <AboutMe />
     </div>
 

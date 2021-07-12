@@ -109,11 +109,21 @@ mark {
 }
 
 .bg-wave {
+    position: relative;
     background-image: url('/asset/bg/bg-wave.png');
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -99;
-    height: 1500px;
+    height: auto;
+}
+
+.box-team {
+    position: relative;
+    height: 20em;
+    max-width: 100%;
+}
+
+.box-aboutme {
+    margin-top: 12rem;
 }
 
 .bg-testi {
@@ -175,6 +185,15 @@ mark {
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+    .container{
+        max-width: 100%;
+        padding: 50px;
+    }
+
+    .resize-nav{
+       padding-bottom: 3em !important;
+    }
+
     .heading {
         font-weight: 900;
         font-size: 1.9rem;
@@ -190,8 +209,19 @@ mark {
         max-width: 100%;
     }
 
+    .sub-heading-resize{
+        font-size: 1rem;
+    }
+
     .text-guidlines {
         font-size: 0.96rem;
+    }
+
+    .vl {
+        border-left: 4px solid #4FC033;
+        height: 500px;
+        margin-right: 5%;
+        opacity: 50%;
     }
 
     .text-mail {
@@ -231,7 +261,7 @@ mark {
 
     .connect-me {
         margin-top: 1.5em;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
     }
 
     .title-specialize {
@@ -244,7 +274,11 @@ mark {
     }
 
     .guidelines .text-end {
-        padding-right: 80px;
+        padding-right: 95px;
+    }
+    
+    .figma-resize{
+        padding-right: 8% !important;
     }
 
     .foto-specialize {
@@ -265,16 +299,59 @@ mark {
     }
 
     .bg-wave {
+        position: relative;
         background-image: url('/asset/bg/bg-wave.png');
         background-size: cover;
         background-repeat: no-repeat;
-        z-index: -99;
-        height: 3250px;
+        height: 208em;
     }
+
+    /* Visit My Team */
+
 
     .box-team {
         padding: 0rem;
         margin: 0rem;
+            position: relative;
+            height: 20em;
+            max-width: 100%;
+    }
+
+    .text-vt {
+        font-size: 12px;
+    }
+
+    .text-vt-2 {
+        font-size: 11px;
+    }
+
+    .bg-testi {
+        background-image: none;
+    }
+
+    .img-ava{
+        width: 9em;
+    }
+
+    .btn-resize{
+        padding: 0.25rem 0.5rem;
+        font-size: 0.875rem;
+        border-radius: 0.2rem;
+    }
+
+    .margin-resize{
+        margin-top: 15px !important;
+    }
+
+    .body-resize{
+        padding-top: 0% !important;
+        padding-bottom: 0% !important;
+    }
+
+    /* ---------------------- */
+
+    .box-aboutme {
+        margin-top: 15rem;
     }
 
     .vid-about-me {

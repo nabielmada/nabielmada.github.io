@@ -1,6 +1,6 @@
 <template>
 
-    <div class="col-12" id = "aboutme" data-aos="fade-up" data-aos-delay="200">
+    <div class="col-12" id = "aboutme">
         <h1 class="title">Did you know, <mark>about me ?</mark></h1>
     </div>
 
@@ -134,7 +134,7 @@
             </h4>
 
             <div class="row mt-4 pt-2 mx-1 list-about-me">
-                <div class="col-lg-2 col-3 mx-2 text-end">
+                <div class="col-lg-2 col-3 mx-2 figma-resize text-end">
                     <img src="/asset/icon/icon-tools-figma.png" alt="" srcset="">
                 </div>
                 <div class="col-lg-9 col-8 text-muted sub-title-2 pt-1">

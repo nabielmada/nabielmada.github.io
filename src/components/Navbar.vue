@@ -1,6 +1,6 @@
 <template>
 
-    <nav class="navbar navbar-expand-lg navbar-light p-5">
+    <nav class="navbar navbar-expand-lg navbar-light p-5 resize-nav">
         <!-- <div class="container-fluid"> -->
         <a class="navbar-brand fs-3" href="#">
             <div class="text-primary-m fw-bold">NM.</div>

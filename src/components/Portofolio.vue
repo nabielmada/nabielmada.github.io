@@ -231,7 +231,7 @@
         </div>
         <p></p>
 
-        <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="200">
             <button class="btn btn-light text-muted"> LOAD MORE</button>
         </div>
     </div>

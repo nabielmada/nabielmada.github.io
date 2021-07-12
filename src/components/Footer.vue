@@ -5,7 +5,11 @@
          <img src="/asset/icon/icon-google.png" class="img-fluid" alt="" srcset="">
      </div>
 
-     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="250">
+
+  <!-- <div class="elfsight-app-85a89ec3-d25e-4f69-b8d9-c16f784b27ce" data-aos="fade-up" data-aos-delay="300"></div> -->
+
+
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="250">
          <div class="card hover-card">
              <div class="card-body">
                  <div class="text-muted p-3">
@@ -69,7 +73,10 @@
      </div>
 
      <div class="col-12 text-center mt-5 mb-5 " data-aos="fade-up" data-aos-delay="200">
+         <a href = "https://www.google.co.id/search?hl=id&_ga=2.20499834.392118132.1626078498-161525578.1626078498&q=Personal+Website+of+Nabiel+Mada&ludocid=4765965147224250446&lsig=AB86z5WpO2RR6dfxZbT50_vGvu4O"
+            target = "_blank">
             <button class="btn btn-light text-muted"> LOAD MORE</button>
+        </a>
     </div>
 
  </div>
