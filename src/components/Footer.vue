@@ -2,7 +2,7 @@
 
  <div class="row">
      <div class="col-lg-12 text-center mb-3" data-aos="fade-up" data-aos-delay="200">
-         <img src="/asset/icon/icon-google.png" class="img-fluid" alt="" srcset="">
+         <img src="/asset/icon/icon-google.png" draggable="false" class="img-fluid" alt="" srcset="">
      </div>
 
 
@@ -18,7 +18,7 @@
                  <hr/>
                  <div class="row g-0 mx-3 card-review mt-4">
                      <div class="col-lg-2 col-3 text-end">
-                         <img src="/avatar/avatar-7.png" class="h-75" alt="" srcset="">
+                         <img src="/avatar/avatar-7.png" draggable="false" class="h-75" alt="" srcset="">
                      </div>
                      <div class="col col card-name-review mx-4">
                          Irfan Wihatnata <br/>
@@ -39,7 +39,7 @@
                  <hr/>
                  <div class="row g-0 card-review mx-3 mt-4">
                      <div class="col-lg-2 col-3 text-end">
-                         <img src="/avatar/avatar-8.png" class="h-75" alt="" srcset="">
+                         <img src="/avatar/avatar-8.png" draggable="false" class="h-75" alt="" srcset="">
                      </div>
                      <div class="col col card-name-review mx-4">
                          Lisa Aurellia Putri<br/>
@@ -60,7 +60,7 @@
                  <hr/>
                  <div class="row g-0 card-review mx-3 mt-4">
                      <div class="col-lg-2 col-3 text-end">
-                         <img src="/avatar/avatar-9.png" class="h-75" alt="" srcset="">
+                         <img src="/avatar/avatar-9.png" draggable="false" class="h-75" alt="" srcset="">
                      </div>
                      <div class="col col card-name-review mx-4">
                         Ranu Ramadhan<br/>
@@ -82,7 +82,7 @@
  </div>
 
 <div class="container box-footer space" id = "hire-me" data-aos="fade-up" data-aos-delay="400">
-     <img src="/asset/bg/bg-footer-1.png" class="bg-footer-1" alt="" srcset="">
+     <img src="/asset/bg/bg-footer-1.png" draggable="false" class="bg-footer-1" alt="" srcset="">
         <div class="d-flex justify-content-center ">
             <div class="card bg-footer p-5 border-none-1 shadow-lg">
                 <div class="card-body bg-card-footer mt-5 mb-5 text-center">
@@ -97,7 +97,7 @@
                 <small class="text-light text-sk">* Syarat dan ketentuan berlaku.</small>
             </div>
         </div>
-     <img src="/asset/bg/bg-footer-2.png" class="bg-footer-2" alt="" srcset="">
+     <img src="/asset/bg/bg-footer-2.png" draggable="false" class="bg-footer-2" alt="" srcset="">
 </div>
 
 <footer class="mb-5 space footer">

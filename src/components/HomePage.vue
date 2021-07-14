@@ -77,7 +77,7 @@
           <div class="card hover-card mb-3" data-aos="fade-up" data-aos-delay="200">
             <div class="row g-0 my-3 guidelines">
               <div class="col-md-4 mt-3 text-end">
-                <img src="/asset/icon/icon-heading-1.png" class="img-fluid rounded-start">
+                <img src="/asset/icon/icon-heading-1.png" class="img-fluid rounded-start" draggable="false">
               </div>
               <div class="col-lg-8">
                 <div class="card-body">
@@ -95,7 +95,7 @@
           <div class="card hover-card mb-3" data-aos="fade-up" data-aos-delay="250">
             <div class="row g-0 my-3 guidelines">
               <div class="col-md-4 mt-3 text-end">
-                <img src="/asset/icon/icon-heading-2.png" class="img-fluid rounded-start">
+                <img src="/asset/icon/icon-heading-2.png" class="img-fluid rounded-start" draggable="false">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -113,7 +113,7 @@
           <div class="card hover-card mb-3" data-aos="fade-up" data-aos-delay="300">
             <div class="row g-0 my-3 guidelines">
               <div class="col-md-4 mt-3 text-end">
-                <img src="/asset/icon/icon-heading-3.png" class="img-fluid rounded-start">
+                <img src="/asset/icon/icon-heading-3.png" class="img-fluid rounded-start" draggable="false">
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -138,8 +138,8 @@
         </div>
         <div class="col-lg-6 mt-5">
           <div class="row">
-            <div class="col-lg-2 col-3" data-aos="fade-right" data-aos-delay="200">
-              <img src="/asset/icon/bi-check.png" draggable="false">
+            <div class="col-lg-2 col-3 mt-3" data-aos="fade-right" data-aos-delay="200">
+              <img src="/asset/icon/bi-check.png" class="w-50" draggable="false">
             </div>
             <div class="col-lg-10 col" data-aos="fade-right" data-aos-delay="350">
               <h4 class="title-specialize">Web Design</h4>
@@ -147,8 +147,8 @@
             </div>
             <p></p>
 
-            <div class="col-lg-2 col-3" data-aos="fade-right" data-aos-delay="200">
-              <img src="/asset/icon/bi-check.png" draggable="false">
+            <div class="col-lg-2 col-3 mt-3" data-aos="fade-right" data-aos-delay="200">
+              <img src="/asset/icon/bi-check.png" class="w-50" draggable="false">
             </div>
             <div class="col-lg-10 col" data-aos="fade-right" data-aos-delay="350">
               <h4 class="title-specialize">Web Development</h4>
@@ -156,8 +156,8 @@
             </div>
             <p></p>
 
-            <div class="col-lg-2 col-3" data-aos="fade-right" data-aos-delay="200">
-              <img src="/asset/icon/bi-check.png" draggable="false">
+            <div class="col-lg-2 col-3 mt-3" data-aos="fade-right" data-aos-delay="200">
+              <img src="/asset/icon/bi-check.png" class="w-50" draggable="false">
             </div>
             <div class="col-lg-10 col" data-aos="fade-right" data-aos-delay="350">
               <h4 class="title-specialize">Designer</h4>
@@ -165,8 +165,8 @@
             </div>
             <p></p>
 
-            <div class="col-lg-2 col-3" data-aos="fade-right" data-aos-delay="200">
-              <img src="/asset/icon/bi-check.png" draggable="false">
+            <div class="col-lg-2 col-3 mt-3" data-aos="fade-right" data-aos-delay="200">
+              <img src="/asset/icon/bi-check.png" class="w-50" draggable="false">
             </div>
             <div class="col-lg-10 col" data-aos="fade-right" data-aos-delay="350">
               <h4 class="title-specialize">Photography</h4>
@@ -174,8 +174,8 @@
             </div>
             <p></p>
 
-            <div class="col-lg-2 col-3" data-aos="fade-right" data-aos-delay="200">
-              <img src="/asset/icon/bi-check.png" draggable="false">
+            <div class="col-lg-2 col-3 mt-3" data-aos="fade-right" data-aos-delay="200">
+              <img src="/asset/icon/bi-check.png" class="w-50" draggable="false">
             </div>
             <div class="col-lg-10 col" data-aos="fade-right" data-aos-delay="350">
               <h4 class="title-specialize">Videography</h4>
@@ -196,7 +196,7 @@
 
         </div>
 
-        <div class="mt-5"></div>
+        <div class="mt-3"></div>
         <div class="col-1"></div>
         <div class="col-lg-3 hire-me" data-aos="fade-up" data-aos-delay="200">
             <a href = "#" v-scroll-to="'#hire-me'">
@@ -252,7 +252,7 @@
                     </p>
 
                     <div class="mb-4">
-                      <img src="/avatar/bg-avatar-testi.png" class="img-fluid img-ava" alt="" srcset="">
+                      <img src="/avatar/bg-avatar-testi.png" draggable="false" class="img-fluid img-ava" alt="" srcset="">
                     </div>
 
                     <div class="d-flex justify-content-center mt-5 margin-resize">
