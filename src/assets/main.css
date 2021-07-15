@@ -33,7 +33,7 @@ input::-webkit-input-placeholder {
 
 .sub-heading {
     font-size: 1.1rem;
-    max-width: 75%;
+    max-width: 80%;
 }
 
 .title {
@@ -73,7 +73,7 @@ mark {
     color: #747474;
 }
 
-.vl {
+.vlh {
     border-left: 4px solid #4FC033;
     height: 500px;
     margin-right: 1.5%;
@@ -218,7 +218,7 @@ mark {
         font-size: 0.96rem;
     }
 
-    .vl {
+    .vlh {
         border-left: 4px solid #4FC033;
         height: 500px;
         margin-right: 5%;

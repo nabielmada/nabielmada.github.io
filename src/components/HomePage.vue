@@ -14,7 +14,7 @@
           </div>
 
           <p class="pt-4 text-muted sub-heading sub-heading-resize ">
-            Co-Founder <b>@Sulungsoft</b> and specialize in full stack
+            Co-Founder <b>@Sulungsoft</b> Team and specialize in full stack
             web development and visual design.
           </p>
 
@@ -70,7 +70,7 @@
 
       <div class="row space">
         <div class="col-12 text-guidlines ">
-          <span class="vl"> </span>My 3 guidlines that I usually apply.
+          <span class="vlh"> </span>My 3 guidlines that I usually apply.
         </div>
 
         <div class="col-lg-4 justify-content-center mt-4">

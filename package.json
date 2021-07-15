@@ -10,15 +10,18 @@
   },
   "dependencies": {
     "@fortawesome/vue-fontawesome": "^2.0.2",
+    "@mdi/font": "5.9.55",
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.2",
     "core-js": "^3.6.5",
     "execa": "latest",
+    "roboto-fontface": "*",
     "vue": "^3.0.0",
     "vue-kinesis": "^2.0.5",
     "vue-router": "^4.0.0-0",
     "vue-scrollto": "^2.20.0",
     "vue-typed-js": "^0.1.2",
+    "vuetify": "^3.0.0-alpha.0",
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
@@ -30,7 +33,10 @@
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0"
+    "eslint-plugin-vue": "^7.0.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.1"
   },
   "eslintConfig": {
     "root": true,

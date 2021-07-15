@@ -34,7 +34,7 @@
          <div class="card hover-card">
              <div class="card-body">
                  <div class="text-muted p-3">
-                     Good service with the good quality design. i just wanted to share a quick note and let you know that you guys do a really good job.
+                     Good service with the good quality design. I just wanted to share a quick note and let you know that you guys do a really good job.
                      I'm glad I decided to work with you.
                  <hr/>
                  <div class="row g-0 card-review mx-3 mt-4">

@@ -12,7 +12,7 @@
                 allowfullscreen></iframe> 
                 
 
-            <p class="mt-5 lh-lg text-secondary w-95 text-me">
+            <p class="mt-5 lh-lg w-95 text-me">
                 Hello There! <br />
                 I'm Nabiel Mada, currently working as freelancer, you can check 
                 my portofolio. Excited to create projects and to help others, i'm currently 
@@ -20,7 +20,7 @@
                 and is learning english.
             </p>
 
-            <p class=" text-me text-secondary lh-lg">
+            <p class=" text-me lh-lg">
                 I'm currently fall in love with VueJS and Laravel, you can reach me at my <br />
                 instagram @nabielmada.
             </p>

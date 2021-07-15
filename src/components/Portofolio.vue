@@ -2,7 +2,7 @@
     <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="200"> 
         <h1 class="title">My Recent <mark>Portofolio</mark></h1>
         <p class="text-muted mt-3 sub-title">
-            Several porofolio projects that i have completed
+            Several portofolio projects that i have completed
             <br /> from varoius cities in Indonesia.</p>
     </div>
 
