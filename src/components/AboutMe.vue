@@ -6,10 +6,12 @@
 
     <div class="row mt-5">
         <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-             <iframe src="https://www.youtube.com/embed/-L0__fCTmkU?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1"
-                title="YouTube video player" class="vid-about-me rounded-3" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media"
-                allowfullscreen></iframe> 
+            <iframe src="https://www.youtube.com/embed/4xfa38cbp74?modestbranding=0&showinfo=0&rel=0" 
+            title="YouTube video player" 
+            class="vid-about-me rounded-3" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
                 
 
             <p class="mt-5 lh-lg w-95 text-me">

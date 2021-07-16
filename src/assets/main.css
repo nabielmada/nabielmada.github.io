@@ -75,8 +75,8 @@ mark {
 
 .vlh {
     border-left: 4px solid #4FC033;
-    height: 500px;
-    margin-right: 1.5%;
+    height: 22px;
+    /* margin-right: 1.5%; */
     opacity: 50%;
 }
 
@@ -220,8 +220,8 @@ mark {
 
     .vlh {
         border-left: 4px solid #4FC033;
-        height: 500px;
-        margin-right: 5%;
+        height: 22px;
+        /* margin-right: 5%; */
         opacity: 50%;
     }
 

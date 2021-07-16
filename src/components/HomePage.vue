@@ -70,7 +70,7 @@
 
       <div class="row space">
         <div class="col-12 text-guidlines ">
-          <span class="vlh"> </span>My 3 guidlines that I usually apply.
+          <div class="vlh"> <span class="pl-3"> My 3 guidlines that I usually apply. </span> </div>
         </div>
 
         <div class="col-lg-4 justify-content-center mt-4">
@@ -201,7 +201,7 @@
         <div class="col-lg-3 hire-me" data-aos="fade-up" data-aos-delay="200">
             <a href = "#" v-scroll-to="'#hire-me'">
           <div class="d-grid">
-            <button class="btn btn-lg btn-primary shadow"> Hire Me</button>
+            <button class="btn btn-lg btn-primary shadow "> Hire Me</button>
           </div>
             </a>
         </div>

@@ -20,7 +20,7 @@
                     </div>
                     <div class="row g-0 mt-4">
                         <div class="col-lg-3 col-2 mt-4 mx-2 avatar-porto text-center">
-                            <img src="/avatar/avatar-1.png" draggable="false" class="" alt="">
+                            <img src="/avatar/factory.png" class="" draggable="false" alt="">
                         </div>
                         <div class="col">
                             <div class="card-text mb-2">
@@ -57,7 +57,7 @@
                     </div>
                     <div class="row g-0 mt-4">
                         <div class="col-lg-3 col-2 mt-4 mx-2 avatar-porto text-center">
-                            <img src="/avatar/avatar-2.png" draggable="false" class="" alt="">
+                            <img src="/avatar/brasco.png" draggable="false" class="" alt="">
                         </div>
                         <div class="col">
                             <div class="card-text mb-2">
@@ -205,7 +205,7 @@
                     </div>
                     <div class="row g-0 mt-4">
                         <div class="col-lg-3 col-2 mt-4 mx-2 avatar-porto text-center">
-                            <img src="/avatar/avatar-6.png" draggable="false" class="" alt="">
+                            <img src="/avatar/jar.png" draggable="false" class="" alt="">
                         </div>
                         <div class="col">
                             <div class="card-text mb-2">

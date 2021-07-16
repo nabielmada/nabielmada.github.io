@@ -63,7 +63,7 @@
                          <img src="/avatar/avatar-9.png" draggable="false" class="h-75" alt="" srcset="">
                      </div>
                      <div class="col col card-name-review mx-4">
-                        Ranu Ramadhan<br/>
+                        Dimas Dwi<br/>
                          Karyawan Swasta
                      </div>
                  </div>
