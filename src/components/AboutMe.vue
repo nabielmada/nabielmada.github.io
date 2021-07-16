@@ -6,13 +6,15 @@
 
     <div class="row mt-5">
         <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-             <iframe src="https://www.youtube.com/embed/-L0__fCTmkU?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1"
-                title="YouTube video player" class="vid-about-me rounded-3" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media"
-                allowfullscreen></iframe> 
+            <iframe src="https://www.youtube.com/embed/4xfa38cbp74?modestbranding=0&showinfo=0&rel=0" 
+            title="YouTube video player" 
+            class="vid-about-me rounded-3" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
                 
 
-            <p class="mt-5 lh-lg text-secondary w-95 text-me">
+            <p class="mt-5 lh-lg w-95 text-me">
                 Hello There! <br />
                 I'm Nabiel Mada, currently working as freelancer, you can check 
                 my portofolio. Excited to create projects and to help others, i'm currently 
@@ -20,7 +22,7 @@
                 and is learning english.
             </p>
 
-            <p class=" text-me text-secondary lh-lg">
+            <p class=" text-me lh-lg">
                 I'm currently fall in love with VueJS and Laravel, you can reach me at my <br />
                 instagram @nabielmada.
             </p>
