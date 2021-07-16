@@ -86,7 +86,7 @@
         <div class="d-flex justify-content-center ">
             <div class="card bg-footer p-5 border-none-1 shadow-lg">
                 <div class="card-body bg-card-footer mt-5 mb-5 text-center">
-                    <div class="text-green">Let me know</div>
+                    <div class="text-green-me">Let me know</div>
                     <p class="text-white h1 text-have">Interested collaboration <br/>with me?</p>
                     <a href = "
                      https://api.whatsapp.com/send/?phone=%2B6285727393383&text=Hello.+I've+seen+your+personal+website,+can+i+talk+to+you+now+?&app_absent=0
