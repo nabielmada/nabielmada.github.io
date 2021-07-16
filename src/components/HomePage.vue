@@ -70,7 +70,7 @@
 
       <div class="row space">
         <div class="col-12 text-guidlines ">
-          <div class="vlh"> <span class="pl-3"> My 3 guidlines that I usually apply. </span> </div>
+          <span class="vlh"> </span>My 3 guidlines that I usually apply.
         </div>
 
         <div class="col-lg-4 justify-content-center mt-4">
