@@ -10,11 +10,11 @@
 
 
       <div class="col-lg-4" data-aos="fade-up" data-aos-delay="250">
-         <div class="card hover-card">
+         <div class="card hover-card h-100">
              <div class="card-body">
                  <div class="text-muted p-3">
                      Easy to use, got way more and way better designs that I expected and very happy with the end result.
-                     Fast service with 1 weeks only. So crazy!
+                     Fast service with 1 weeks only. So crazy! Thank you
                  <hr/>
                  <div class="row g-0 mx-3 card-review mt-4">
                      <div class="col-lg-2 col-3 text-end">
@@ -31,7 +31,7 @@
      </div>
 
      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="350">
-         <div class="card hover-card">
+         <div class="card hover-card h-100">
              <div class="card-body">
                  <div class="text-muted p-3">
                      Good service with the good quality design. I just wanted to share a quick note and let you know that you guys do a really good job.
@@ -52,7 +52,7 @@
      </div>
 
      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="450">
-         <div class="card hover-card">
+         <div class="card hover-card h-100">
              <div class="card-body">
                  <div class="text-muted p-3">
                      You guys rocked on the sculpture project. And you have been the most helpful site i have ever been on. Thanks so much
@@ -94,7 +94,7 @@
                         <button class="btn btn-light btn-lg text-muted mt-4"> <small>Say Hello!</small></button>
                     </a>
                 </div>
-                <small class="text-light text-sk">* Syarat dan ketentuan berlaku.</small>
+                <small class="text-light text-sk">* Terms and conditions apply</small>
             </div>
         </div>
      <img src="/asset/bg/bg-footer-2.png" draggable="false" class="bg-footer-2" alt="" srcset="">
@@ -103,7 +103,7 @@
 <footer class="mb-5 space footer">
     <center>
         <ion-icon name="heart-outline" class="text-danger" ></ion-icon>  <br/>
-      2021 &copy; Nabiel Mada
+      2023 &copy; Nabiel Mada
     </center>
 </footer>
 

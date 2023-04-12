@@ -5,54 +5,42 @@
 
     <div class="container pt-4">
       <div class="row">
-
-        <div class="col-lg-7" data-aos="fade-right" data-aos-delay="200">
-          <div class="heading lh-sm">
+        <div class="col-lg-7 align-self-center" data-aos="fade-right" data-aos-delay="200">
+          <div class="heading lh-sm mb-2">
             Hello. <br />
             I'm <mark> Nabiel Mada </mark> <br />
             <span class="text-primary-m heading-2">Web Developer & Designer</span>
           </div>
 
-          <p class="pt-4 text-muted sub-heading sub-heading-resize ">
-            Co-Founder <b>@Sulungsoft</b> Team and specialize in full stack
-            web development and visual design.
+          <p class="py-3 lh-lg text-muted sub-heading sub-heading-resize ">
+            Founder 
+            <b><a href = "https://alunam.com" target = "_blank" class = "text-muted">Alunam</a></b> 
+            and Engineering <b>@Sulungsoft</b> 
+            Team also specialize in web development and visual design
+            murid (online) Mario Teguh - Super Sekali
           </p>
 
-          <div class="row pt-3 mb-3">
-            <div class="col-lg-7">
-              <input type="text" name="" id="" class="form-control form-control-lg"
-                placeholder="Enter your email address...">
-            </div>
-            <div class="col-lg-4 connect-me">
-              <div class="d-grid">
-                <button class="btn btn-lg btn-primary shadow"> <small>Connect with me</small></button>
+          <div class="row pt-3 summary">
+            <div class="col-lg-4">
+              <div class="d-flex flex-column">
+                <small class = "text-muted">PROJECTS</small>
+                <span class="h2">9 <i class="em em-fire h5" aria-role="presentation" aria-label="FIRE"></i></span>
               </div>
             </div>
-          </div>
 
-          <br />
-          <div class="row pt-3 summary">
-            <div class="col-lg-1 col-2">
-              <span class="h1">2</span>
-            </div>
-            <div class="col-lg-3 col-10 text-muted">
-              <small>YEARS EXPERIENCE</small>
+            <div class="col-lg-4">
+              <div class="d-flex flex-column">
+                <small class = "text-muted">EXPERIENCE</small>
+                <span class="h2">3 yrs</span>
+              </div>
             </div>
 
-            <div class="col-lg-1 col-2">
-              <span class="h1">5</span>
+            <div class="col-lg-4">
+              <div class="d-flex flex-column">
+                <small class = "text-muted">NATIONALITY</small>
+                <span class="h2">IDN <i class="em em-flag-id h5" aria-role="presentation" aria-label="Indonesia Flag"></i></span>
+              </div>
             </div>
-            <div class="col-lg-3 col-10 text-muted">
-              <small>HAPPY CUSTOMERS</small>
-            </div>
-
-            <div class="col-lg-1 col-2">
-              <span class="h1">6</span>
-            </div>
-            <div class="col-lg-3 col-10 text-muted">
-              <small>PROJECTS COMPLETE </small>
-            </div>
-
           </div>
 
         </div>
@@ -60,12 +48,11 @@
         <div class="col-lg-5">
           <kinesis-container>
             <kinesis-element :strength="15">
-              <img src="/img/foto-heading.png" alt="foto-heading" draggable="false" class="foto-heading">
+              <img src="/img/foto-heading.png" alt="foto-heading" draggable="false" loading="lazy" class="foto-heading">
 
             </kinesis-element>
           </kinesis-container>
         </div>
-
       </div> <!-- end row -->
 
       <div class="row space">
@@ -74,17 +61,19 @@
         </div>
 
         <div class="col-lg-4 justify-content-center mt-4">
-          <div class="card hover-card mb-3" data-aos="fade-up" data-aos-delay="200">
-            <div class="row g-0 my-3 guidelines">
-              <div class="col-md-4 mt-3 text-end">
-                <img src="/asset/icon/icon-heading-1.png" class="img-fluid rounded-start" draggable="false">
-              </div>
-              <div class="col-lg-8">
-                <div class="card-body">
-                  <h5 class="card-title">Responsibility</h5>
-                  <p class="card-text text-muted">
-                    Take responsibility for what i have started.
-                  </p>
+          <div class = "hover-card">
+            <div class="card mb-3 border-0" data-aos="fade-up" data-aos-delay="200">
+              <div class="row g-0 my-3 guidelines">
+                <div class="col-md-4 mt-3 text-end">
+                  <img src="/asset/icon/icon-heading-1.png" class="img-fluid rounded-start" alt = "icon-responsibility" loading="lazy" draggable="false">
+                </div>
+                <div class="col-lg-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Responsibility</h5>
+                    <p class="card-text text-muted">
+                      <small>Take risk and responsibility for what i have started.</small>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -92,17 +81,19 @@
         </div>
 
         <div class="col-lg-4 justify-content-center mt-4">
-          <div class="card hover-card mb-3" data-aos="fade-up" data-aos-delay="250">
-            <div class="row g-0 my-3 guidelines">
-              <div class="col-md-4 mt-3 text-end">
-                <img src="/asset/icon/icon-heading-2.png" class="img-fluid rounded-start" draggable="false">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Commitment</h5>
-                  <p class="card-text text-muted">
-                    Commitment to work or create something great.
-                  </p>
+          <div class = "hover-card">
+            <div class="card mb-3 border-0" data-aos="fade-up" data-aos-delay="250">
+              <div class="row g-0 my-3 guidelines">
+                <div class="col-md-4 mt-3 text-end">
+                  <img src="/asset/icon/icon-heading-2.png" class="img-fluid rounded-start" alt = "icon-commitment" loading="lazy" draggable="false">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Commitment</h5>
+                    <p class="card-text text-muted">
+                      <small>Commitment to work or create something great.</small>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -110,17 +101,19 @@
         </div>
 
         <div class="col-lg-4 justify-content-center mt-4">
-          <div class="card hover-card mb-3" data-aos="fade-up" data-aos-delay="300">
-            <div class="row g-0 my-3 guidelines">
-              <div class="col-md-4 mt-3 text-end">
-                <img src="/asset/icon/icon-heading-3.png" class="img-fluid rounded-start" draggable="false">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Vigorously</h5>
-                  <p class="card-text text-muted">
-                    Like to learn new things about creativity or logic.
-                  </p>
+          <div class = "hover-card">
+            <div class="card mb-3 border-0" data-aos="fade-up" data-aos-delay="300">
+              <div class="row g-0 my-3 guidelines">
+                <div class="col-md-4 mt-3 text-end">
+                  <img src="/asset/icon/icon-heading-3.png" class="img-fluid rounded-start" alt = "icon-vigorusly" loading="lazy" draggable="false">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Vigorously</h5>
+                    <p class="card-text text-muted">
+                      <small>Like to learn new things about creativity or logic.</small>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -131,10 +124,15 @@
 
       <div class="row mb-5 pb-5 space">
         <div class="col-12 text-center mb-4" id="specialize" data-aos="fade-up" data-aos-delay="200">
+          <p><i class="em em-sunglasses" aria-role="presentation" aria-label="SMILING FACE WITH SUNGLASSES"></i></p>
           <h1 class="title">What <mark>am i doing</mark></h1>
-          <p class="text-muted mt-3 sub-title">There are many things i usually do but i
-            specialize in
-            <br /> sectors of software development.</p>
+          <p class="text-muted mt-3 sub-title">
+            <small>
+              There are many things i usually do but i
+              specialize in
+              <br /> sectors of software development.
+            </small>
+          </p>
         </div>
         <div class="col-lg-6 mt-5">
           <div class="row">
@@ -143,7 +141,7 @@
             </div>
             <div class="col-lg-10 col" data-aos="fade-right" data-aos-delay="350">
               <h4 class="title-specialize">Web Design</h4>
-              <p class="text-muted text-size">Landing Page, User Flow, Prototyping, UI/UX Design.</p>
+              <p class="text-muted text-size">Landing Page - User Flow - Prototyping - UI/UX Design</p>
             </div>
             <p></p>
 
@@ -152,7 +150,7 @@
             </div>
             <div class="col-lg-10 col" data-aos="fade-right" data-aos-delay="350">
               <h4 class="title-specialize">Web Development</h4>
-              <p class="text-muted text-size">Full Stack Website, Security, SEO, Responsive.</p>
+              <p class="text-muted text-size">Frontend - Backend - Search Engine Optimization</p>
             </div>
             <p></p>
 
@@ -161,7 +159,7 @@
             </div>
             <div class="col-lg-10 col" data-aos="fade-right" data-aos-delay="350">
               <h4 class="title-specialize">Designer</h4>
-              <p class="text-muted text-size">Banner Iklan, Poster, Content Digital.</p>
+              <p class="text-muted text-size">Banner Iklan - Poster - Content Digital</p>
             </div>
             <p></p>
 
@@ -170,7 +168,7 @@
             </div>
             <div class="col-lg-10 col" data-aos="fade-right" data-aos-delay="350">
               <h4 class="title-specialize">Photography</h4>
-              <p class="text-muted text-size">Couple Session, Pre-wedding, Photo Product, Photo Editing.</p>
+              <p class="text-muted text-size">Couple Session - Prewedding - Photo Editing</p>
             </div>
             <p></p>
 
@@ -179,36 +177,31 @@
             </div>
             <div class="col-lg-10 col" data-aos="fade-right" data-aos-delay="350">
               <h4 class="title-specialize">Videography</h4>
-              <p class="text-muted">Cinematic, Company Profile, Animation.</p>
+              <p class="text-muted">Cinematic - Company Profile - JedagJedug</p>
             </div>
           </div>
         </div>
 
         <div class="col-6" data-aos="fade-right" data-aos-delay="200">
-          <!-- <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_Yfas6J.json" background="transparent"
-            speed="1" class="img-fluid" loop autoplay></lottie-player> -->
           <kinesis-container>
             <kinesis-element :strength="15" type="depth">
               <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_dqp37g7d.json" background="transparent"
                 speed="1" class="img-fluid foto-specialize pt-5" loop autoplay></lottie-player>
             </kinesis-element>
           </kinesis-container>
-
         </div>
 
-        <div class="mt-3"></div>
         <div class="col-1"></div>
         <div class="col-lg-3 hire-me" data-aos="fade-up" data-aos-delay="200">
-            <a href = "#" v-scroll-to="'#hire-me'">
-          <div class="d-grid">
-            <button class="btn btn-lg btn-primary shadow "> Hire Me</button>
-          </div>
+            <a href = "#" v-scroll-to="'#hire-me'" class = "text-decoration-none">
+              <div class="d-grid">
+                <button class="btn btn-lg btn-primary shadow rounded-pill"> Hire Me</button>
+              </div>
             </a>
         </div>
         <div class="col-lg-3" data-aos="fade-up" data-aos-delay="250">
           <div class="d-grid">
-            <button class="btn btn-lg btn-light text-muted" @click="modal.show()"> Get My
-              CV</button>
+            <button class="btn btn-lg btn-light text-muted rounded-pill" @click="modal.show()"> Get My CV</button>
           </div>
         </div>
 
@@ -241,14 +234,17 @@
               <div class="card shadow-lg border-none-testi w-75 ">
 
                 <div class="bg-testi">
-                  <div class="card-body mt-5 mb-5 pt-5 pb-5 body-resize">
+                  <div class="card-body my-5 py-5 body-resize">
+                    <p>
+                      <i class="em em-crown" aria-role="presentation" aria-label="CROWN"></i>
+                    </p>
                     <h5 class="text-vt">
-                      <b>" Great things in</b> Business <b> are never done by </b> one person. <br />
+                      <b>" Great things in</b> Business <b> are never done by </b> one person <br />
                       <b> They're done by team of people " </b>
                     </h5>
 
                     <p class="mt-4 text-vt-2">
-                      <small> Thank's for my customer : </small>
+                      <small> Thank's</small>
                     </p>
 
                     <div class="mb-4">
@@ -257,7 +253,7 @@
 
                     <div class="d-flex justify-content-center mt-5 margin-resize">
                       <div>
-                        <a href = "https://www.instagram.com/sulungsoft/" target="_blank"><button class="btn btn-lg btn-primary btn-resize shadow"> <small>Visit My Team</small></button></a>
+                        <a href = "https://www.instagram.com/sulungsoft/" target="_blank"><button class="btn btn-lg btn-primary btn-resize shadow rounded-pill px-4"> <small>Our Medsos</small></button></a>
                       </div>
                     </div>
                   </div>

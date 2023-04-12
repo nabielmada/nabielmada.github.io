@@ -1,7 +1,9 @@
 <template>
 
     <div class="col-12" id = "aboutme">
-        <h1 class="title">Did you know, <mark>about me ?</mark></h1>
+        <h1 class="title">
+            Did you know <mark>about me</mark> <i class="em em-grey_question h4" aria-role="presentation" aria-label="WHITE QUESTION MARK ORNAMENT"></i>
+        </h1>
     </div>
 
     <div class="row mt-5">
@@ -16,14 +18,14 @@
 
             <p class="mt-5 lh-lg w-95 text-me">
                 Hello There! <br />
-                I'm Nabiel Mada, currently working as freelancer, you can check 
-                my portofolio. Excited to create projects and to help others, i'm currently 
+                I'm Nabiel Mada, currently working as freelancer but also #opentowork.
+                Excited to create projects and to help others, i'm currently 
                 learning design and code (Web Developer). I'm natively speak Indonesian 
                 and is learning english.
             </p>
 
             <p class=" text-me lh-lg">
-                I'm currently fall in love with VueJS and Laravel, you can reach me at my <br />
+                I'm currently fall in love with MEVN Stack, you can reach me at my <br />
                 instagram @nabielmada.
             </p>
 
@@ -38,13 +40,60 @@
                     <p class="title h4 mt-5">
                         My Age
                     </p>
-                    20 year's old.
+                    22 year's old.
                 </div>
                 <div class="col-lg-4">
                     <p class="title h4 mt-5">
                         Professional
                     </p>
-                    Full Stack Web Developer
+                    Web Developer
+                </div>
+            </div>
+
+            <h4 class="mt-5 pt-4 title">
+                Online Certificate
+            </h4>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class = "col-3">
+                                    <img src="/asset/icon/icon-certi-hackerrank.png" class = "img-fluid" alt="" srcset="">
+                                </div>
+                                <div class = "col-9">
+                                    <div class = "d-flex flex-column">
+                                        <h6 class = "fw-semibold">Javascript (Basic)</h6>
+                                        <span>HackerRank</span>
+                                        <small class = "text-muted">Issued Mar 2023</small>
+                                        <small class = "text-muted">Credential ID 9973f8cfc476</small>
+                                    </div>
+                                    <a href="https://www.hackerrank.com/certificates/9973f8cfc476" target = "_blank" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class = "col-3">
+                                    <img src="/asset/icon/icon-certi-hackerrank.png" class = "img-fluid" alt="" srcset="">
+                                </div>
+                                <div class = "col-9">
+                                    <div class = "d-flex flex-column">
+                                        <h6 class = "fw-semibold">CSS Certificate</h6>
+                                        <span>HackerRank</span>
+                                        <small class = "text-muted">Issued Mar 2023</small>
+                                        <small class = "text-muted">Credential ID a2a420ef9f9b</small>
+                                    </div>
+                                    <a href="https://www.hackerrank.com/certificates/a2a420ef9f9b" target = "_blank" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -61,14 +110,6 @@
 
             <div class="row mt-4 pt-2 mx-1 list-about-me">
                 <div class="col-lg-2 col-3 mx-2">
-                    <img src="/asset/icon/icon-tools-laravel.png" alt="" srcset="">
-                </div>
-                <div class="col-lg-9 col-8 text-muted sub-title-2 pt-1">
-                    Laravel 8
-                    <hr>
-                </div>
-
-                <div class="col-lg-2 col-3 mx-2">
                     <img src="/asset/icon/icon-tools-bootstrap.png" alt="" srcset="">
                 </div>
                 <div class="col-lg-9 col-8 text-muted sub-title-2 pt-1">
@@ -77,18 +118,64 @@
                 </div>
 
                 <div class="col-lg-2 col-3 mx-2">
-                    <img src="/asset/icon/icon-tools-vue.png" alt="" srcset="">
+                    <img src="/asset/icon/icon-tools-vite.png" class = "img-fluid" alt="" srcset="">
                 </div>
                 <div class="col-lg-9 col-8 text-muted sub-title-2 pt-1">
-                     Vue JS & CLI
+                     Vite
                     <hr>
                 </div>
 
                 <div class="col-lg-2 col-3 mx-2">
-                    <img src="/asset/icon/icon-tools-firebase.png" alt="" srcset="">
+                    <img src="/asset/icon/icon-tools-vue.png" alt="" srcset="">
                 </div>
                 <div class="col-lg-9 col-8 text-muted sub-title-2 pt-1">
-                     Firebase
+                     Vue JS
+                    <hr>
+                </div>
+
+                <div class="col-lg-2 col-3 mx-2">
+                    <img src="/asset/icon/icon-tools-nuxt.png" class = "img-fluid" alt="" srcset="">
+                </div>
+                <div class="col-lg-9 col-8 text-muted sub-title-2 pt-1">
+                     Nuxt JS
+                    <hr>
+                </div>
+
+                <div class="col-lg-2 col-3 mx-2">
+                    <img src="/asset/icon/icon-tools-express.png" class = "img-fluid" alt="" srcset="">
+                </div>
+                <div class="col-lg-9 col-8 text-muted sub-title-2 pt-1">
+                     Express JS
+                    <hr>
+                </div>
+
+                <div class="col-lg-2 col-3 mx-2">
+                    <img src="/asset/icon/icon-tools-laravel.png" alt="" srcset="">
+                </div>
+                <div class="col-lg-9 col-8 text-muted sub-title-2 pt-1">
+                    Laravel 8
+                    <hr>
+                </div>
+            </div>
+
+            <h4 class="mt-5 title">
+                Automated Unit Testing
+            </h4>
+
+            <div class="row mt-4 pt-2 mx-1 list-about-me">
+                <div class="col-lg-2 col-3 mx-2">
+                    <img src="/asset/icon/icon-tools-cypress.png" class = "img-fluid" alt="" srcset="">
+                </div>
+                <div class="col-lg-9 col-8 text-muted sub-title-2 pt-1">
+                    Cypress (E2E)
+                    <hr>
+                </div>
+
+                <div class="col-lg-2 col-3 mx-2">
+                    <img src="/asset/icon/icon-tools-vitest.png" class = "img-fluid" alt="" srcset="">
+                </div>
+                <div class="col-lg-9 col-8 text-muted sub-title-2 pt-1">
+                    Vitest (Components)
                     <hr>
                 </div>
             </div>
@@ -111,6 +198,14 @@
                 </div>
                 <div class="col-lg-9 col-8 text-muted sub-title-2 pt-1">
                     Xampp
+                    <hr>
+                </div>
+
+                <div class="col-lg-2 col-3 mx-2">
+                    <img src="/asset/icon/icon-tools-nodejs.png" class = "img-fluid" alt="" srcset="">
+                </div>
+                <div class="col-lg-9 col-8 text-muted sub-title-2 pt-1">
+                    Node JS
                     <hr>
                 </div>
 

@@ -6,6 +6,7 @@ import store from './store'
 import VueKinesis from 'vue-kinesis'
 
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import '/src/assets/main.css';
 
 var VueScrollTo = require('vue-scrollto');

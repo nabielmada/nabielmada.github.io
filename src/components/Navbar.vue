@@ -1,9 +1,9 @@
 <template>
 
-    <nav class="navbar navbar-expand-lg navbar-light p-5 resize-nav">
-        <!-- <div class="container-fluid"> -->
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light pb-5 pt-4 resize-nav">
         <a class="navbar-brand fs-3" href="#">
-            <div class="text-primary-m fw-bold">NM.</div>
+            <div class="fw-bold"><i class="em em-wave" aria-role="presentation" aria-label="WAVING HAND SIGN"></i></div>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,13 +11,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mx-auto order-0">
-                <li class="nav-item  ">
-                    <a class="nav-link active" aria-current="page" href="#home" >Home</a>
+                <li class="nav-item  me-4">
+                    <a class="nav-link" aria-current="page" href="" >Home</a>
                 </li>
-                <li class="nav-item ">
+                <li class="nav-item me-4">
                     <a class="nav-link" v-scroll-to="'#specialize'" href="#specialize">Specialize</a>
                 </li>
-                <li class="nav-item ">
+                <li class="nav-item me-4">
                     <a class="nav-link" v-scroll-to="'#portofolio'" href="#portofolio">Portofolio</a>
                 </li>
                 <li class="nav-item ">
@@ -35,7 +35,6 @@
                     <ion-icon name="mail-outline" class="me-3" size="large"></ion-icon>
                 </a>
             </div>
-            <!-- </div> -->
 
             <!-- Modal -->
             <div class="modal fade" ref="mailModal" tabindex="-1" aria-hidden="true">
@@ -45,7 +44,7 @@
                             <button type="button" class="btn-close" @click="modal_mail.hide()"
                                 aria-label="Close"></button>
                         </div>
-                        <div class="modal-body pb-5">
+                        <div class="modal-body mb-5">
                             <div class="row">
                                 <div class="col-lg-6 col-6 text-center">
 
@@ -55,10 +54,11 @@
                                 <div class="col-lg-6 col-12 pt-3 text-mail">
                                     <h4>Hi!</h4>
                                     <label for="mail">
-                                        you can reach me on gmail :
-                                        <b>nabielmada@gmail.com</b>
+                                        <p>you can reach me on gmail :</p>
+                                        <p>
+                                            <b>nabielmada@gmail.com</b>
+                                        </p>
                                     </label>
-                                    <p></p>
                                     Nice to meet you soon.
                                 </div>
                             </div>
@@ -69,6 +69,7 @@
 
         </div>
     </nav>
+</div>
 
 </template>
 
