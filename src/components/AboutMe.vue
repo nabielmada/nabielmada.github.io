@@ -16,18 +16,21 @@
             allowfullscreen></iframe>
                 
 
-            <p class="mt-5 lh-lg w-95 text-me">
-                Hello There! <br />
-                I'm Nabiel Mada, currently working as freelancer but also #opentowork.
-                Excited to create projects and to help others, i'm currently 
-                learning design and code (Web Developer). I'm natively speak Indonesian 
-                and is learning english.
-            </p>
+            <div class = "w-90">
+                <div class="mt-5 lh-lg text-me">
+                    <p>Greetings! </p>
 
-            <p class=" text-me lh-lg">
-                I'm currently fall in love with MEVN Stack, you can reach me at my <br />
-                instagram @nabielmada.
-            </p>
+                    <p>It's great to connect with you! My name is Nabiel Mada and I am a freelance worker who is currently open to new job opportunities. I am passionate about creating innovative projects that can help people in various ways, which is why I am always eager to learn new things, especially when it comes to design and coding.</p>
+
+                    <p>As a native Indonesian speaker, I am also working hard to improve my English skills. I believe that effective communication is crucial, especially when working with people from diverse backgrounds.</p>
+
+                    <p>In terms of technology, I am currently fascinated by the MEVN stack, which is a collection of modern web development tools and frameworks that use MongoDB or Mysql, Express, Vue.js or Nuxt.js, and Node.js. I find this technology stack to be highly efficient and effective in creating fast and responsive web applications.</p>
+
+                </div>
+
+                <p class=" text-me lh-lg">
+                    If you would like to learn more about me and my work, please feel free to connect with me on Instagram or Github profile at @nabielmada. I am always excited to collaborate and help others achieve their goals. 
+                </p>
 
             <div class="row mb-5">
                 <div class="col-lg-4">
@@ -97,7 +100,7 @@
                 </div>
             </div>
 
-
+        </div>
 
         </div>
 

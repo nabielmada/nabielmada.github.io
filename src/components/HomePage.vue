@@ -71,7 +71,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Responsibility</h5>
                     <p class="card-text text-muted">
-                      <small>Take risk and responsibility for what i have started.</small>
+                      <small>Take risk and responsibility for what I have started.</small>
                     </p>
                   </div>
                 </div>
@@ -128,8 +128,8 @@
           <h1 class="title">What <mark>am i doing</mark></h1>
           <p class="text-muted mt-3 sub-title">
             <small>
-              There are many things i usually do but i
-              specialize in
+              There are many things I usually do but I
+              specialize in the
               <br /> sectors of software development.
             </small>
           </p>

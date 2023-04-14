@@ -88,6 +88,10 @@ mark {
     width: 95%;
 }
 
+.w-90 {
+    width: 90%;
+}
+
 .hover-card {
     transition: all 0.8s;
     margin-bottom: 10px;
@@ -185,6 +189,21 @@ mark {
 
 .text-green-me {
     color: #AEFF9C;
+}
+
+.frame {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.frame-logo {
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
