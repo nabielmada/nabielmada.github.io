@@ -2,8 +2,10 @@
   <div class="HomePage">
 
     <Navbar />
-
+    
     <div class="container pt-4">
+    <kinesis-container>
+    <kinesis-element :strength="20">
       <div class="row">
         <div class="col-lg-7 align-self-center" data-aos="fade-right" data-aos-delay="200">
           <div class="heading lh-sm mb-2">
@@ -46,14 +48,11 @@
         </div>
 
         <div class="col-lg-5">
-          <kinesis-container>
-            <kinesis-element :strength="15">
-              <img src="/img/foto-heading.png" alt="foto-heading" draggable="false" loading="lazy" class="foto-heading">
-
-            </kinesis-element>
-          </kinesis-container>
+          <img src="/img/foto-heading.png" alt="foto-heading" draggable="false" loading="lazy" class="foto-heading">
         </div>
       </div> <!-- end row -->
+    </kinesis-element>
+    </kinesis-container>
 
       <div class="row space">
         <div class="col-12 text-guidlines ">
@@ -201,7 +200,7 @@
         </div>
         <div class="col-lg-3" data-aos="fade-up" data-aos-delay="250">
           <div class="d-grid">
-            <button class="btn btn-lg btn-light text-muted rounded-pill" @click="modal.show()"> Get My CV</button>
+            <button class="btn btn-lg btn-light text-muted rounded-pill" @click="cv_modal.show()"> Get My CV</button>
           </div>
         </div>
 
@@ -210,7 +209,7 @@
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
               <div class="modal-header" style="border:none">
-                <button type="button" class="btn-close" @click="modal.hide()" aria-label="Close"></button>
+                <button type="button" class="btn-close" @click="cv_modal.hide()" aria-label="Close"></button>
               </div>
               <div class="modal-body pb-5 text-center">
                 <img src="/asset/icon/Progress _Outline.svg" class="img-fluid" alt="" srcset="">
@@ -297,12 +296,10 @@
       Footer
     },
     data: () => ({
-      modal: null,
-      modal_mail: null,
+      cv_modal: null,
     }),
     mounted() {
-      this.modal = new Modal(this.$refs.cvModal)
-      this.modal_mail = new Modal(this.$refs.mailModal)
+      this.cv_modal = new Modal(this.$refs.cvModal)
     }
   };
 </script>

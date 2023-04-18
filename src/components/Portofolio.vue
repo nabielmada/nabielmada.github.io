@@ -205,7 +205,7 @@
         </div>
 
         <div class="col" data-aos="flip-up" data-aos-delay="350">
-            <div class="card hover-card border-none h-100">
+            <div class="card hover-card border-none h-100" @click="project_modal('vingarage')" role = "button">
                 <div class="text-center mt-3">
                 </div>
                 <div class="card-body">
@@ -242,7 +242,7 @@
         </div>
 
         <div class="col" data-aos="flip-up" data-aos-delay="250">
-            <div class="card hover-card border-none h-100">
+            <div class="card hover-card border-none h-100" @click="project_modal('rahardja')" role = "button">
                 <div class="text-center mt-3">
                 </div>
                 <div class="card-body">
@@ -278,7 +278,7 @@
         </div>
 
         <div class="col" data-aos="flip-up" data-aos-delay="300">
-            <div class="card hover-card border-none h-100">
+            <div class="card hover-card border-none h-100" @click="project_modal('arojaya')" role = "button">
                 <div class="text-center mt-3">
                 </div>
                 <div class="card-body">
@@ -315,7 +315,7 @@
         </div>
 
         <div class="col" data-aos="flip-up" data-aos-delay="350">
-            <div class="card hover-card border-none h-100">
+            <div class="card hover-card border-none h-100" @click="project_modal('jar')" role = "button">
                 <div class="text-center">
                     <div class="badge bg-primary w-25 text-white"><small>Team</small></div>
                 </div>
@@ -353,11 +353,66 @@
         </div>
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" ref="projectModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header" style="border:none">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body mx-5 mb-5">
+                    <!-- Components Projects -->
+                    <div v-if = "projectName === 'jar'">
+                        <JogjaAirportResto></JogjaAirportResto>
+                    </div>
+                    <div v-if = "projectName === 'arojaya'">
+                        <BengkelArojaya></BengkelArojaya>
+                    </div>
+                    <div v-if = "projectName === 'rahardja'">
+                        <RahardjaRental></RahardjaRental>
+                    </div>
+                    <div v-if = "projectName === 'vingarage'">
+                        <Vingarage></Vingarage>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </template>
 
 <script>
+    import {
+        Modal
+    } from 'bootstrap'
+
+    import JogjaAirportResto from '@/components/projects/JogjaAirportResto.vue'
+    import BengkelArojaya from '@/components/projects/BengkelArojaya.vue'
+    import RahardjaRental from '@/components/projects/RahardjaRental.vue'
+    import Vingarage from '@/components/projects/Vingarage.vue'
+
     export default {
-        name: "Portofolio"
+        name: "Portofolio",
+        components: {
+            JogjaAirportResto,
+            BengkelArojaya,
+            RahardjaRental,
+            Vingarage,
+        },
+        data: () => ({
+            projectName: '',
+        }),
+        mounted() {
+        },
+        methods: {
+            project_modal(projectName){
+                projectName === 'jar' ? this.projectName = projectName : '';
+                projectName === 'arojaya' ? this.projectName = projectName : '';
+                projectName === 'rahardja' ? this.projectName = projectName : '';
+                projectName === 'vingarage' ? this.projectName = projectName : '';
+
+                new Modal(this.$refs.projectModal).show()
+            },
+        },
     }
 </script>

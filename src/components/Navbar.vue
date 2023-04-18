@@ -31,7 +31,7 @@
                 <a href="https://github.com/nabielmada" target="_blank" class="brand">
                     <ion-icon name="logo-github" class="me-3" size="large"></ion-icon>
                 </a>
-                <a href="#" class="brand" @click="modal_mail.show()">
+                <a href="#" class="brand" @click="mail_modal.show()">
                     <ion-icon name="mail-outline" class="me-3" size="large"></ion-icon>
                 </a>
             </div>
@@ -41,7 +41,7 @@
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header" style="border:none">
-                            <button type="button" class="btn-close" @click="modal_mail.hide()"
+                            <button type="button" class="btn-close" @click="mail_modal.hide()"
                                 aria-label="Close"></button>
                         </div>
                         <div class="modal-body mb-5">
@@ -81,10 +81,10 @@
     export default {
         name: "Navbar",
         data: () => ({
-            modal_mail: null,
+            mail_modal: null,
         }),
         mounted() {
-            this.modal_mail = new Modal(this.$refs.mailModal)
+            this.mail_modal = new Modal(this.$refs.mailModal)
         }
     };
 </script>
