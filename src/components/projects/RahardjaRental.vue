@@ -1,8 +1,9 @@
 <template>
   <div>
-    <h1>Rahardja Rental</h1>
+    <h1>Website Luxury Car Rental</h1>
 
     <div class = "d-flex flex-column my-4">
+        <div>Rahardja Rental</div>
         <div>Tahun: 2020</div>
         <div>Kategori: Individu</div>
     </div>

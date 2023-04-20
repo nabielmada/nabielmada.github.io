@@ -13,7 +13,7 @@
 
     <div class="row row-cols-1 row-cols-md-3 g-4 card-porto">
         <div class="col" data-aos="flip-up" data-aos-delay="250">
-            <div class="card hover-card border-none h-100">
+            <div class="card hover-card border-none h-100" @click="project_modal('alunam')" role = "button">
                 <div class="text-center mt-3">
                 </div>
                 <div class="card-body">
@@ -54,7 +54,7 @@
         </div>
 
         <div class="col" data-aos="flip-up" data-aos-delay="250">
-            <div class="card hover-card border-none h-100">
+            <div class="card hover-card border-none h-100" @click="project_modal('tmj_wb')" role = "button">
                 <div class="text-center">
                     <div class="badge bg-primary w-25 text-white"><small>Team</small></div>
                 </div>
@@ -92,7 +92,7 @@
         </div>
 
         <div class="col" data-aos="flip-up" data-aos-delay="250">
-            <div class="card hover-card border-none h-100">
+            <div class="card hover-card border-none h-100" @click="project_modal('tmj_om')" role = "button">
                 <div class="text-center mt-3">
                 </div>
                 <div class="card-body">
@@ -129,7 +129,7 @@
         </div>
 
         <div class="col" data-aos="flip-up" data-aos-delay="250">
-            <div class="card hover-card border-none h-100">
+            <div class="card hover-card border-none h-100" @click="project_modal('nicoles')" role = "button">
                 <div class="text-center">
                     <div class="badge bg-primary w-25 text-white"><small>Team</small></div>
                 </div>
@@ -144,7 +144,7 @@
                         </div>
                         <div class="col">
                             <div class="card-text mb-2">
-                                Web App Factory (sERP) and Point of Sale
+                                Web App Factory (ERP) and Point of Sale
                             </div>
                             <div class="text-muted mb-2 lh-sm">
                                 <small>Nicole's Chocolaterie</small><br />
@@ -167,7 +167,7 @@
         </div>
 
         <div class="col" data-aos="flip-up" data-aos-delay="300">
-            <div class="card hover-card border-none h-100">
+            <div class="card hover-card border-none h-100" @click="project_modal('mangospa')" role = "button">
                 <div class="text-center">
                     <div class="badge bg-primary w-25 text-white"><small>Team</small></div>
                 </div>
@@ -182,7 +182,7 @@
                         </div>
                         <div class="col">
                             <div class="card-text mb-2">
-                                Web App SPA Therapist (sERP) and Point of Sale
+                                Web App SPA Therapist (ERP) and Point of Sale
                             </div>
                             <div class="text-muted mb-2 lh-sm">
                                 <small>Mango Spa Brasco</small><br />
@@ -374,6 +374,21 @@
                     <div v-if = "projectName === 'vingarage'">
                         <Vingarage></Vingarage>
                     </div>
+                    <div v-if = "projectName === 'mangospa'">
+                        <MangoSpa></MangoSpa>
+                    </div>
+                    <div v-if = "projectName === 'nicoles'">
+                        <Nicoles></Nicoles>
+                    </div>
+                    <div v-if = "projectName === 'tmj_om'">
+                        <TmjOm></TmjOm>
+                    </div>
+                    <div v-if = "projectName === 'tmj_wb'">
+                        <TmjWb></TmjWb>
+                    </div>
+                    <div v-if = "projectName === 'alunam'">
+                        <Alunam></Alunam>
+                    </div>
                 </div>
             </div>
         </div>
@@ -390,6 +405,11 @@
     import BengkelArojaya from '@/components/projects/BengkelArojaya.vue'
     import RahardjaRental from '@/components/projects/RahardjaRental.vue'
     import Vingarage from '@/components/projects/Vingarage.vue'
+    import MangoSpa from '@/components/projects/MangoSpa.vue'
+    import Nicoles from '@/components/projects/Nicoles.vue'
+    import TmjOm from '@/components/projects/TmjOm.vue'
+    import TmjWb from '@/components/projects/TmjWb.vue'
+    import Alunam from '@/components/projects/Alunam.vue'
 
     export default {
         name: "Portofolio",
@@ -398,6 +418,11 @@
             BengkelArojaya,
             RahardjaRental,
             Vingarage,
+            MangoSpa,
+            Nicoles,
+            TmjOm,
+            TmjWb,
+            Alunam,
         },
         data: () => ({
             projectName: '',
@@ -410,6 +435,11 @@
                 projectName === 'arojaya' ? this.projectName = projectName : '';
                 projectName === 'rahardja' ? this.projectName = projectName : '';
                 projectName === 'vingarage' ? this.projectName = projectName : '';
+                projectName === 'mangospa' ? this.projectName = projectName : '';
+                projectName === 'nicoles' ? this.projectName = projectName : '';
+                projectName === 'tmj_om' ? this.projectName = projectName : '';
+                projectName === 'tmj_wb' ? this.projectName = projectName : '';
+                projectName === 'alunam' ? this.projectName = projectName : '';
 
                 new Modal(this.$refs.projectModal).show()
             },

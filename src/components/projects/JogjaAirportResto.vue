@@ -1,8 +1,9 @@
 <template>
   <div>
-    <h1>Jogja Airport Resto</h1>
+    <h1>Web App Restaurant and Point of Sale (Offline)</h1>
 
     <div class = "d-flex flex-column my-4">
+        <div>Jogja Airport Resto</div>
         <div>Tahun: 2019</div>
         <div>Kategori: Tim</div>
     </div>
@@ -42,7 +43,7 @@
             <ol>
                 <li>Adi Kurniawan: Project Manager</li>
                 <li>Irvan Hidayat: System Analyst & QA</li>
-                <li>Nabiel Mada: Software Engineering</li>
+                <li>Nabiel Mada: Software Developer</li>
                 <li>Fahrezi Bayu: Software Developer</li>
                 <li>Rega: Infrastruktur Jaringan</li>
                 <li>Muhammad Fariz: Teknisi CCTV</li>

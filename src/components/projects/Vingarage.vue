@@ -1,8 +1,9 @@
 <template>
   <div>
-    <h1>Vingarage18</h1>
+    <h1>Website Car Reparation</h1>
 
     <div class = "d-flex flex-column my-4">
+        <div>Vingarage18</div>
         <div>Tahun: 2021</div>
         <div>Kategori: Individu</div>
     </div>
