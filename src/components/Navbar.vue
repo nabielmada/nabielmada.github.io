@@ -1,7 +1,7 @@
 <template>
 
 <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light pb-5 pt-4 resize-nav">
+    <nav class="navbar nav-underline navbar-expand-lg navbar-light pb-5 pt-4 resize-nav">
         <a class="navbar-brand fs-3" href="#">
             <div class="fw-bold"><i class="em em-wave" aria-role="presentation" aria-label="WAVING HAND SIGN"></i></div>
         </a>
