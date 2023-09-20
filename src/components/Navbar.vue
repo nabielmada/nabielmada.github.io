@@ -5,7 +5,7 @@
         <a class="navbar-brand fs-3" href="#">
             <div class="fw-bold"><i class="em em-wave" aria-role="presentation" aria-label="WAVING HAND SIGN"></i></div>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

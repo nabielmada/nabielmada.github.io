@@ -22,22 +22,22 @@
             murid (online) Mario Teguh - Super Sekali
           </p>
 
-          <div class="row pt-3 summary">
-            <div class="col-lg-4">
+          <div class="row pt-3">
+            <div class="col-sm-3 col-md-4">
               <div class="d-flex flex-column">
                 <small class = "text-muted">PROJECTS</small>
                 <span class="h2">9 <i class="em em-fire h5" aria-role="presentation" aria-label="FIRE"></i></span>
               </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-sm-3 col-md-4">
               <div class="d-flex flex-column">
                 <small class = "text-muted">EXPERIENCE</small>
                 <span class="h2">3 yrs</span>
               </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-sm-3 col-md-4">
               <div class="d-flex flex-column">
                 <small class = "text-muted">NATIONALITY</small>
                 <span class="h2">IDN <i class="em em-flag-id h5" aria-role="presentation" aria-label="Indonesia Flag"></i></span>

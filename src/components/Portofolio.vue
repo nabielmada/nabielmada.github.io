@@ -11,7 +11,7 @@
     </div>
 
     <div class="d-flex justify-content-center">
-        <div class="col-6">
+        <div class="col-sm-12 col-md-6">
             <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active rounded-5" id="real-project-tab" data-bs-toggle="tab" data-bs-target="#real-project-tab-pane" type="button" role="tab" aria-controls="real-project-tab-pane" aria-selected="true">Real Project</button>
