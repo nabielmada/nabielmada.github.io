@@ -373,7 +373,7 @@
                 <div class="col" data-aos="flip-up" data-aos-delay="250">
                     <div class="card hover-card border-none h-100" role = "button">
                         <div class="text-center mt-3">
-                            <a href="https://nabielmada-compro-unictive.netlify.app/" target = "_blank" class="stretched-link"></a>
+                            <a href="https://nabielmada-compro-unictive.netlify.app" target = "_blank" class="stretched-link"></a>
                         </div>
                         <div class="card-body">
                             <div class="card-title text-center mb-3 text-secondary">Kreasi Digital</div>
@@ -389,7 +389,7 @@
                                     <div class="col">
                                         <div class="text-muted mb-2 lh-sm">
                                             <small>Figma Community</small><br />
-                                            <small>Septermber 2023</small>
+                                            <small>September 2023</small>
                                         </div>
                                         <div class="d-inline-block">
                                         <small>
@@ -408,8 +408,9 @@
                     </div>
                 </div>
                 <div class="col" data-aos="flip-up" data-aos-delay="250">
-                    <div class="card hover-card border-none h-100" @click="project_modal('alunam')" role = "button">
+                    <div class="card hover-card border-none h-100" role = "button">
                         <div class="text-center mt-3">
+                            <a href="https://chatnrechat-nabielmada.vercel.app" target = "_blank" class="stretched-link"></a>
                         </div>
                         <div class="card-body">
                             <div class="card-title text-center mb-3 text-secondary">Chat n'Rechat</div>
@@ -429,8 +430,10 @@
                                         </div>
                                         <div class="d-inline-block">
                                         <small>
-                                            <div class="badge bg-light-primary me-2">CSS</div>
+                                            <div class="badge bg-light-primary me-2">Vite</div>
+                                            <div class="badge bg-light-primary me-2">Vue 3</div>
                                             <div class="badge bg-light-primary me-2">Bootstrap 5</div>
+                                            <div class="badge bg-light-primary me-2">CSS</div>
                                         </small>
                                     </div>
                                     </div>
