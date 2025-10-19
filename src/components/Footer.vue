@@ -5,10 +5,6 @@
          <img src="/asset/icon/icon-google.png" draggable="false" class="img-fluid" alt="" srcset="">
      </div>
 
-
-  <!-- <div class="elfsight-app-85a89ec3-d25e-4f69-b8d9-c16f784b27ce" data-aos="fade-up" data-aos-delay="300"></div> -->
-
-
       <div class="col-lg-4" data-aos="fade-up" data-aos-delay="250">
          <div class="card hover-card h-100">
              <div class="card-body">
@@ -82,29 +78,25 @@
  </div>
 
 <div class="container box-footer space" id = "hire-me" data-aos="fade-up" data-aos-delay="400">
-     <img src="/asset/bg/bg-footer-1.png" draggable="false" class="bg-footer-1" alt="" srcset="">
-        <div class="d-flex justify-content-center ">
-            <div class="card bg-footer p-5 border-none-1 shadow-lg">
-                <div class="card-body bg-card-footer mt-5 mb-5 text-center">
-                    <div class="text-green-me">Let me know</div>
-                    <p class="text-white h1 text-have">Interested collaboration <br/>with me?</p>
-                    <a href = "
-                     https://api.whatsapp.com/send/?phone=%2B6285727393383&text=Hello.+I've+seen+your+personal+website,+can+i+talk+to+you+now+?&app_absent=0
-                    " target="_blank">
-                        <button class="btn btn-light btn-lg text-muted mt-4"> <small>Say Hello!</small></button>
-                    </a>
-                </div>
-                <small class="text-light text-sk">* Terms and conditions apply</small>
+    <div class="d-flex justify-content-center ">
+        <div class="card bg-footer p-5 border-none-1 shadow-lg">
+            <div class="card-body bg-card-footer mt-5 mb-5 text-center">
+                <div class="text-green-me">Let me know</div>
+                <p class="text-white h1 text-have">Interested collaboration <br/>with me?</p>
+                <a href = "
+                    https://api.whatsapp.com/send/?phone=%2B6285727393383&text=Hello.+I've+seen+your+personal+website,+can+i+talk+to+you+now+?&app_absent=0
+                " target="_blank">
+                    <button class="btn btn-light btn-lg text-muted mt-4"> <small>Say Hello!</small></button>
+                </a>
             </div>
+            <small class="text-light text-sk">* Terms and conditions apply</small>
         </div>
-     <img src="/asset/bg/bg-footer-2.png" draggable="false" class="bg-footer-2" alt="" srcset="">
+    </div>
 </div>
 
-<footer class="mb-5 space footer">
-    <center>
-        <ion-icon name="heart-outline" class="text-danger" ></ion-icon>  <br/>
-      2023 &copy; Nabiel Mada
-    </center>
+<footer class="mb-5 text-center space footer">
+    <ion-icon name="heart-outline" class="text-danger" ></ion-icon>  <br/>
+    2026 &copy; Nabiel Mada
 </footer>
 
 </template>
