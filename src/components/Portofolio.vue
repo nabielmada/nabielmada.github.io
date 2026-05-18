@@ -636,6 +636,72 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col" data-aos="flip-up" data-aos-delay="300">
+                    <div class="card hover-card border-none h-100" @click="project_modal('qurate')" role = "button">
+                        <div class="card-body">
+                            <div class="card-title text-center mb-3 text-secondary">Qurate</div>
+                            <div class="text-center">
+                                <img src="/portofolio/bg-portofolio-11.png" draggable="false" class="card-img-top bg-portofolio" loading = "lazy" alt="bg-por-qurate">
+                            </div>
+                            <div class="mx-3 mt-4">
+                                <div class="card-text mb-2">
+                                    Qurate AI
+                                </div>
+                                
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <div class="text-muted mb-2 lh-sm">
+                                            <small>Qurate - Four.Meme AI Sprint - Autonomous AI Web3 Payment Agen</small><br />
+                                            <small>Global Hackathon Four.Meme AI Sprint, 2026</small>
+                                        </div>
+                                        <div class="d-inline-block">
+                                        <small>
+                                            <div class="badge bg-light-primary me-2">Next JS</div>
+                                            <div class="badge bg-light-primary me-2">Tailwind</div>
+                                            <div class="badge bg-light-primary me-2">Vercel</div>
+                                            <div class="badge bg-light-primary me-2">AI</div>
+                                        </small>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col" data-aos="flip-up" data-aos-delay="350">
+                    <div class="card hover-card border-none h-100" @click="project_modal('arctube')" role = "button">
+                        <div class="card-body">
+                            <div class="card-title text-center mb-3 text-secondary">Arctube</div>
+                            <div class="text-center">
+                                <img src="/portofolio/bg-portofolio-11.png" draggable="false" class="card-img-top bg-portofolio" loading = "lazy" alt="bg-por-arctube">
+                            </div>
+                            <div class="mx-3 mt-4">
+                                <div class="card-text mb-2">
+                                    Arctube 
+                                </div>
+                                
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <div class="text-muted mb-2 lh-sm">
+                                            <small>Arctube - Pay-Per-Second Video Platform on Arc L1 Blockchain</small><br />
+                                            <small>Global Hackathon Agentic Economy on Arc , 2026</small>
+                                        </div>
+                                        <div class="d-inline-block">
+                                        <small>
+                                            <div class="badge bg-light-primary me-2">Next JS</div>
+                                            <div class="badge bg-light-primary me-2">Supabase</div>
+                                            <div class="badge bg-light-primary me-2">Circle SDK</div>
+                                            <div class="badge bg-light-primary me-2">Web3</div>
+                                        </small>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -757,6 +823,21 @@
                     <div v-if = "projectName === 'alunam'">
                         <Alunam></Alunam>
                     </div>
+                    <div v-if = "projectName === 'alunam-gb'">
+                        <AlunamGb></AlunamGb>
+                    </div>
+                    <div v-if = "projectName === 'mbg'">
+                        <Mbg></Mbg>
+                    </div>
+                    <div v-if = "projectName === 'mbg-apps'">
+                        <MbgApps></MbgApps>
+                    </div>
+                    <div v-if = "projectName === 'qurate'">
+                        <Qurate></Qurate>
+                    </div>
+                    <div v-if = "projectName === 'arctube'">
+                        <Arctube></Arctube>
+                    </div>
                 </div>
             </div>
         </div>
@@ -778,6 +859,11 @@
     import TmjOm from '@/components/projects/TmjOm.vue'
     import TmjWb from '@/components/projects/TmjWb.vue'
     import Alunam from '@/components/projects/Alunam.vue'
+    import AlunamGb from '@/components/projects/AlunamGb.vue'
+    import Mbg from '@/components/projects/Mbg.vue'
+    import MbgApps from '@/components/projects/MbgApps.vue'
+    import Qurate from '@/components/projects/Qurate.vue'
+    import Arctube from '@/components/projects/Arctube.vue'
 
     export default {
         name: "Portofolio",
@@ -791,6 +877,11 @@
             TmjOm,
             TmjWb,
             Alunam,
+            AlunamGb,
+            Mbg,
+            MbgApps,
+            Qurate,
+            Arctube,
         },
         data: () => ({
             projectName: '',

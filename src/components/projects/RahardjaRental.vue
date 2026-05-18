@@ -4,13 +4,13 @@
 
     <div class = "d-flex flex-column my-4">
         <div>Rahardja Rental</div>
-        <div>Tahun: 2020</div>
-        <div>Kategori: Individu</div>
+        <div>Year: 2020</div>
+        <div>Category: Individual</div>
     </div>
 
     <article>
         <p>
-          Sebuah website static yang menampilkan beberapa mobil mewah yang dapat disewa, dapat melihat detail mobil dan biaya estimasi persewaan. Sistem pemesanan persewaan mobil mewah ini dilakukan melalui whatsapp yang langsung mendirect ke pesan pemilik persewaan.
+          A static website showcasing a selection of luxury cars available for rent, providing detailed vehicle specifications and estimated rental costs. The reservation system for these luxury vehicles integrates directly with WhatsApp, routing inquiries straight to the rental owner's messages.
         </p>
 
         <section id = "tech-stack" class = "mb-4">

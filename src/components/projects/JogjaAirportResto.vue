@@ -4,23 +4,22 @@
 
     <div class = "d-flex flex-column my-4">
         <div>Jogja Airport Resto</div>
-        <div>Tahun: 2019</div>
-        <div>Kategori: Tim</div>
+        <div>Year: 2019</div>
+        <div>Category: Team</div>
     </div>
 
     <article>
         <p>
-            Dalam rangka memulai tahapan penelitian dengan metode waterfall, kami akan berkunjung langsung ke lokasi yang terletak di kawasan Sleman untuk merencanakan pembuatan serta kebutuhan pada sistem POS (Point of Sale) berbasis website aplikasi yang berjalan secara offline dengan menggunakan server sendiri. 
+            To initiate the research phase using the waterfall method, we conducted an on-site visit in the Sleman area to plan and gather requirements for an offline, web-based Point of Sale (POS) application running on a local server.
         </p>
         <p>
-            Klien memberikan waktu satu bulan termasuk (Server, Program, CCTV, Animasi Boarding, Edukasi) agar semua kebutuhan dapat digunakan pada saat soft-opening.
-            Proses pembuatan sistem memerlukan waktu 3 minggu (2 minggu on-site) untuk memenuhi persyaratan dengan fitur-fitur yang telah disepakati bersama.
+            The client provided a one-month timeline (covering Server, Application, CCTV, Boarding Animation, and Training) to ensure all components were fully operational for the soft opening. The system development took 3 weeks (including 2 weeks on-site) to meet all the agreed-upon feature requirements.
         </p>
         <p>
-            Sistem POS (Point of Sale) yang kami buat ini cukup sederhana karena memiliki 2 Hak Aksess yaitu, Admin dan Kasir. Admin memiliki fitur seperti Manajemen Akun, Manajemen Inventory, Profil Bisnis, Laporan Transaksi Penjualan. Sedangkan untuk Kasir hanya Transaksi Penjualan dan Integrasi dengan peralatan kasir (Print Struk).
+            This Point of Sale (POS) system is relatively straightforward, featuring two access roles: Admin and Cashier. The Admin has access to Account Management, Inventory Management, Business Profile, and Sales Transaction Reports. The Cashier role is restricted to Sales Transactions and hardware integration (Receipt Printing).
         </p>
         <p>
-            Sistem ini dapat melakukan multiple print struk, ketika di setiap kasir cetak struk maka printer struk yang ada di dapur juga akan tercetak sesuai dengan item pesanan customer atau print struk yang ada di kasir.
+            The system supports multiple receipt printing. When a cashier prints a receipt at the front desk, the kitchen printer simultaneously generates a ticket corresponding to the customer's order.
         </p>
 
         <section id = "tech-stack" class = "mb-4">
@@ -39,22 +38,22 @@
         </section>
         
         <section id = "personil" class = "mb-4">
-            <div class = "fw-bold mb-2">Personil (Sulungsoft Team)</div>
+            <div class = "fw-bold mb-2">Personnel (Sulungsoft Team)</div>
             <ol>
                 <li>Adi Kurniawan: Project Manager</li>
                 <li>Irvan Hidayat: System Analyst & QA</li>
                 <li>Nabiel Mada: Software Developer</li>
                 <li>Fahrezi Bayu: Software Developer</li>
-                <li>Rega: Infrastruktur Jaringan</li>
-                <li>Muhammad Fariz: Teknisi CCTV</li>
-                <li>Yanto: Teknisi CCTV</li>
+                <li>Rega: Network Infrastructure</li>
+                <li>Muhammad Fariz: CCTV Technician</li>
+                <li>Yanto: CCTV Technician</li>
                 <li>Dimas Dwi: Designer</li>
                 <li>Jeany Yuandra: Animation</li>
             </ol>
         </section>
 
         <section id = "dokumentasi" class = "mb-4">
-            <div class = "fw-bold mb-2">Dokumentasi</div>
+            <div class = "fw-bold mb-2">Documentation</div>
             <div class = "d-flex">
                 <div class="frame-dokumentasi">
                     <!-- <img src = "..." class = "img-fluid img-dokumentasi" alt = "gallery-dokumentasi"> -->

@@ -4,16 +4,16 @@
 
     <div class = "d-flex flex-column my-4">
         <div>Arojaya Workshop</div>
-        <div>Tahun: 2020</div>
-        <div>Kategori: Individu</div>
+        <div>Year: 2020</div>
+        <div>Category: Individual</div>
     </div>
 
     <article>
         <p>
-          Sistem ini dibuat untuk memberikan kemudahan dalam transaksi penjualan sparepart dan service, serta dapat memberikan komisi kepada mekanik secara langsung melalui sistem berdasarkan jasa yang dipilih.
+          This system was designed to simplify sales transactions for spare parts and services, while also facilitating direct commission payouts to mechanics based on the selected services.
         </p>
         <p>
-          Hanya memiliki 1 Hak Aksess yaitu Admin, dan fitur yang cukup sederhana di dalamnya yaitu terdapat Master User, Master inventory, Master Mekanik, Master Jasa, Master Sparepart, Kasir Service, Laporan Service, Laporan Barang Masuk, Profile Bisnis.
+          It features a single Admin access role and includes streamlined functionalities such as User Management, Inventory Management, Mechanic Management, Service Management, Spare Part Management, Service Cashier, Service Reports, Incoming Goods Reports, and Business Profile.
         </p>
 
         <section id = "tech-stack" class = "mb-4">

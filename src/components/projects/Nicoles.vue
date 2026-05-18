@@ -4,13 +4,13 @@
 
     <div class = "d-flex flex-column my-4">
         <div>Nicole's Chocolaterie</div>
-        <div>Tahun: 2021</div>
-        <div>Kategori: Tim</div>
+        <div>Year: 2021</div>
+        <div>Category: Team</div>
     </div>
 
     <article>
         <p>
-          Mohon maaf, sesuai dengan perijinan untuk deskripsi pada project ini tidak bisa diberitahukan secara umum
+          We apologize, but due to confidentiality agreements, the description for this project cannot be disclosed publicly.
         </p>
 
         <section id = "tech-stack" class = "mb-4">
@@ -29,7 +29,7 @@
         </section>
 
         <section id = "personil" class = "mb-4">
-            <div class = "fw-bold mb-2">Personil (Algasys x Sulungsoft Team)</div>
+            <div class = "fw-bold mb-2">Personnel (Algasys x Sulungsoft Team)</div>
             <ol>
                 <li>Djoko Darmawan: Project Manager</li>
                 <li>Irvan Hidayat: System Analyst & QA</li>

@@ -4,36 +4,36 @@
 
     <div class = "d-flex flex-column my-4">
         <div>Alunam</div>
-        <div>Tahun: 2023</div>
-        <div>Kategori: Individu</div>
+        <div>Year: 2023</div>
+        <div>Category: Individual</div>
     </div>
 
     <article>
         <p>
-          Website penyedia undangan pernikahan online, terdapat berbagai macam katalog yang sesuai dengan tema pernikahan. Memiliki fitur unik seperti:
+          An online wedding invitation website offering a variety of catalogs tailored to different wedding themes. It features unique capabilities such as:
         </p>
         <ol>
-          <li>Ucapan dan Konfirmasi Kehadiran</li>
-          <li>Maps Lokasi Acara GMAPS</li>
-          <li>Galeri dan Foto Prewedding</li>
-          <li>Unlimited Tamu Undangan</li>
-          <li>Amplop Digital</li>
-          <li>Hitung Mundur Acara</li>
-          <li>Bebas Musik Favorit</li>
-          <li>Bisa Self-Service</li>
-          <li>Pengingat Waktu Acara</li>
+          <li>Greetings and RSVP Confirmation</li>
+          <li>Google Maps Location Integration</li>
+          <li>Prewedding Photo Gallery</li>
+          <li>Unlimited Guest Invitations</li>
+          <li>Digital Envelopes (Cash Gifts)</li>
+          <li>Event Countdown</li>
+          <li>Custom Background Music</li>
+          <li>Self-Service Management</li>
+          <li>Event Time Reminders</li>
         </ol>
         <p>
-          Tidak hanya itu, di alunam juga menyediakan sistem partnership yang dapat memudahkan kita dapat berkolaborasi dengan penyedia/pemilik/kelompok/individu dengan tujuan memberikan solusi efektif terhadap customer. 
+          Furthermore, Alunam provides a partnership system that facilitates collaboration with vendors, owners, groups, or individuals to deliver effective solutions to customers.
         </p>
         <p>
-          Jadi tidak hanya website saja tetapi terdapat portal backoffice dan partnership, portal partnership bertujuan untuk mengetahui seberapa banyak mereka bisa mendapatkan customer dengan promosinya, yang kemudian akan di diberikan keuntungan sebesar 30% dari total harga undangan pernikahan.
+          This ecosystem includes not just the main website, but also a backoffice and a partnership portal. The partnership portal tracks customer acquisitions through promotions, rewarding partners with a 30% commission from the total price of the wedding invitation.
         </p>
         <p>
-          Sedangkan pada back office, sistem untuk mengelola semua data yang masuk dari website maupun partnership alunam.
+          Meanwhile, the backoffice serves as a centralized management system for all data generated from both the Alunam website and its partnerships.
         </p>
         <p>
-        Info lebih lengkap silahkan kunjungi: <a href = "https://alunam.com" target = "_blank">https://alunam.com</a>
+        For more information, please visit: <a href = "https://alunam.com" target = "_blank">https://alunam.com</a>
         </p>
 
 

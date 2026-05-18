@@ -4,19 +4,19 @@
 
     <div class = "d-flex flex-column my-4">
         <div>Vingarage18</div>
-        <div>Tahun: 2021</div>
-        <div>Kategori: Individu</div>
+        <div>Year: 2021</div>
+        <div>Category: Individual</div>
     </div>
 
     <article>
         <p>
-          Project ini memiliki dua kategori yaitu, website dan backoffice. Website digunakan untuk user dapat melakukan pengecekan kendaarannya sudah sampai tahap mana reparasi itu dilakukan. Sedangkan backoffice digunakan untuk melakukan pengolahan data pada pemesanan reparasi. 
+          This project is divided into two main components: a customer-facing website and a backoffice dashboard. The website allows users to track the real-time progress of their vehicle repairs. Meanwhile, the backoffice is designed to process and manage repair orders and data.
         </p>
         <p>
-          Pada backoffice memiliki menu diantaranya adalah Dashboard, Customer, Reparasi, Laporan Reparasi dan Profile Bisnis. di dalam menu Reparasi cukup kompleks karena didalamnya dapat melakukan validasi berbagai macam kategori reparasi seperti "Apakah kendaaraan pada nopol ini sudah melakukan reparasi A jika belum maka masih dalam tahap proses", "Jika semua pemesanan reparasi sudah selesai semua makan dapat melukan tahap berikutnya yaitu invoice"
+          The backoffice features multiple modules, including Dashboard, Customers, Repairs, Repair Reports, and Business Profile. The Repair module is particularly complex, as it handles various repair stage validations. For instance, it checks "Has the vehicle with this license plate completed Repair Stage A? If not, it remains in progress." Once all repair orders for a vehicle are marked as complete, the system advances to the invoicing stage.
         </p>
         <p>
-         Pada Menu Laporan Reparasi difungsikan untuk melihat data customer yang melakukan pemesanan reparasi serta datap mencetak invoice untuk dikirimkan kepada customer
+         The Repair Reports module is utilized to review customer repair histories and print professional invoices to be delivered to the customers.
         </p>
 
         <section id = "tech-stack" class = "mb-4">
