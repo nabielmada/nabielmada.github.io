@@ -799,17 +799,15 @@
         },
         methods: {
             project_modal(projectName){
-                projectName === 'jar' ? this.projectName = projectName : '';
-                projectName === 'arojaya' ? this.projectName = projectName : '';
-                projectName === 'rahardja' ? this.projectName = projectName : '';
-                projectName === 'vingarage' ? this.projectName = projectName : '';
-                projectName === 'mangospa' ? this.projectName = projectName : '';
-                projectName === 'nicoles' ? this.projectName = projectName : '';
-                projectName === 'tmj_om' ? this.projectName = projectName : '';
-                projectName === 'tmj_wb' ? this.projectName = projectName : '';
-                projectName === 'alunam' ? this.projectName = projectName : '';
-
-                new Modal(this.$refs.projectModal).show()
+                this.projectName = projectName;
+                
+                this.$nextTick(() => {
+                    let modalInstance = Modal.getInstance(this.$refs.projectModal);
+                    if (!modalInstance) {
+                        modalInstance = new Modal(this.$refs.projectModal);
+                    }
+                    modalInstance.show();
+                });
             },
         },
     }

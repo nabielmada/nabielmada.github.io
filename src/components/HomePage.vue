@@ -261,10 +261,6 @@ import Portofolio from '@/components/Portofolio.vue'
 import AboutMe from '@/components/AboutMe.vue'
 import Footer from '@/components/Footer.vue'
 
-import {
-  Modal
-} from 'bootstrap'
-
 export default {
   name: 'HomePage',
   components: {
@@ -274,10 +270,8 @@ export default {
     Footer
   },
   data: () => ({
-    cv_modal: null,
   }),
   mounted() {
-    this.cv_modal = new Modal(this.$refs.cvModal)
   }
 };
 </script>
